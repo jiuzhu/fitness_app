@@ -1,4 +1,8 @@
 FitnessApp::Application.routes.draw do
+
+  # Homepage
+  get '/', controller: 'homepage', action: 'index'
+
   # Routes for the Challenge resource:
   # CREATE
   get '/challenges/new', controller: 'challenges', action: 'new', as: 'new_challenge'

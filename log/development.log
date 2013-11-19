@@ -2834,3 +2834,58 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-18 21:30:41 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-18 21:30:41 -0500
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-18 21:36:39 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 195ms (Views: 135.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-18 21:36:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-18 21:36:40 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-18 21:36:40 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-18 21:36:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-18 21:36:40 -0500
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-18 21:36:40 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-18 21:41:04 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 364ms (Views: 362.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-18 21:41:04 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-18 21:41:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-18 21:41:05 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-18 21:41:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-18 21:41:05 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-18 21:41:05 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-18 21:41:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-18 21:41:05 -0500

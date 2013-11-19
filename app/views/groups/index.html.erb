@@ -1,7 +1,7 @@
 <div class="row margin-small">	 
 	<div class="col-md-4 col-md-push-4">
 		<div class="page-header c-align">
-			<h1>All Groups</h1>
+			<h1>My Groups</h1>
 		</div>
 	</div>
 </div>
@@ -26,17 +26,15 @@
 </div>
 
 
-
-<% @groups.each do |group| %>
-
-
-    <tr>
-      <td><%= group.name %></td>
-      <td><%= link_to 'Show', group_url(group) %></td>
-      <td><%= link_to 'Edit', edit_group_url(group) %></td>
-      <td><%= link_to 'Destroy', group_url(group), method: 'delete', data: { confirm: "Do you really want to delete this group?" } %></td>
-    </tr>
-  <% end %>
-  </tbody>
-</table>
+<div class="row margin-small">	 
+	<div class="col-md-12 c-align">
+		<% @groups.each do |group| %>
+			<tr>
+			<td><%= group.name %></td>
+			<td><%= link_to 'Group Members', group_url(group) %></td>
+			<td><%= link_to 'Withdraw From Group', group_url(group), method: 'delete', data: { confirm: "Do you really want to delete this group?" } %></td>
+			</tr>
+		<% end %>
+	</div>
+</div>
 

@@ -2889,3 +2889,124 @@ Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-18 21:41:05 -
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-18 21:41:05 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-18 21:42:47 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 234ms (Views: 170.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-18 21:42:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-18 21:42:48 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-18 21:42:48 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-18 21:42:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-18 21:42:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-18 21:42:48 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-18 21:42:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-18 21:42:48 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-18 21:43:34 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-18 21:43:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-18 21:43:34 -0500
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-18 21:43:34 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-18 21:43:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-18 21:43:34 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-18 21:43:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-18 21:43:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-18 21:43:34 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-18 21:43:46 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 63ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-18 21:43:46 -0500
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-18 21:43:46 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-18 21:43:46 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-18 21:43:46 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-18 21:43:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-18 21:43:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-18 21:43:47 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-18 21:43:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-18 21:43:55 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-18 21:43:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-18 21:43:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-18 21:43:55 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-18 21:43:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-18 21:43:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-18 21:43:55 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-18 21:43:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-18 21:43:55 -0500

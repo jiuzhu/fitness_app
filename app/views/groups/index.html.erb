@@ -29,11 +29,9 @@
 <div class="row margin-small">	 
 	<div class="col-md-12 c-align">
 		<% @groups.each do |group| %>
-			<tr>
-			<td><%= group.name %></td>
-			<td><%= link_to 'Group Members', group_url(group) %></td>
-			<td><%= link_to 'Withdraw From Group', group_url(group), method: 'delete', data: { confirm: "Do you really want to delete this group?" } %></td>
-			</tr>
+			<%= group.name %>
+			<%= link_to 'Withdraw From Group', group_url(group), method: 'delete', data: { confirm: "Do you really want to withdraw from this group?" } %>
+			<p>
 		<% end %>
 	</div>
 </div>

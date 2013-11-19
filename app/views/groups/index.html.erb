@@ -1,19 +1,25 @@
-<h1>Groups</h1>
+<div class="row margin-small">	 
+	<div class="col-md-4 col-md-push-4">
+		<div class="page-header c-align">
+			<h1>All Groups</h1>
+		</div>
+	</div>
+</div>
 
-<p><%= link_to 'Add a New Group', new_group_url %></p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
+<div class="row margin-small">	 
+	<div class="col-md-4 col-md-push-4 c-align">
+		<%= link_to 'Add a New Group', new_group_url %>
+	</div>
+</div>
 
-  <tbody>
-  <% @groups.each do |group| %>
+
+
+
+
+<% @groups.each do |group| %>
+
+
     <tr>
       <td><%= group.name %></td>
       <td><%= link_to 'Show', group_url(group) %></td>

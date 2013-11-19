@@ -3358,3 +3358,154 @@ Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-18 21:57:39 -0
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-18 21:57:39 -0500
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-11-18 22:03:04 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 179ms (Views: 123.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-18 22:03:05 -0500
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-18 22:03:05 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-18 22:03:05 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-18 22:03:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-18 22:03:05 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-18 22:03:05 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-18 22:03:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-18 22:03:05 -0500
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-18 22:03:10 -0500
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-18 22:03:10 -0500
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-18 22:03:10 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-18 22:03:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-18 22:03:11 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-18 22:03:11 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-18 22:03:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-18 22:03:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-18 22:03:11 -0500
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-18 22:03:47 -0500
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-18 22:03:47 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-18 22:03:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-18 22:03:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-18 22:03:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-18 22:03:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-18 22:03:47 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-18 22:03:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-18 22:03:47 -0500
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-18 22:04:06 -0500
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-18 22:04:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-18 22:04:06 -0500
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-18 22:04:07 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-18 22:04:07 -0500
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-18 22:04:07 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-18 22:04:07 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-18 22:04:07 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-18 22:04:07 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-18 22:04:09 -0500
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-18 22:04:10 -0500
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-18 22:04:10 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-18 22:04:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-18 22:04:10 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-18 22:04:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-18 22:04:10 -0500
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-18 22:04:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-18 22:04:10 -0500

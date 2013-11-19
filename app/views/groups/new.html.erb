@@ -1,0 +1,24 @@
+<div class="row margin-small">	 
+	<div class="col-md-4 col-md-push-4">
+		<div class="page-header c-align">
+			<h1>Create Group</h1>
+		</div>
+	</div>
+</div>
+
+<%= form_tag(groups_url, method: 'post') do %>
+	<div class="form-group"> 
+
+	<div class="row margin-small">	 
+		<div class="col-md-4 col-md-push-4">
+			<%= text_field_tag :name, 'Group Name', class: 'form-control' %>
+		</div>
+    	</div>
+
+	<div class="row margin-small">	 
+		<div class="col-md-4 col-md-push-4">
+			<%= submit_tag "Create Group", class: 'f-right' %>
+		</div>
+	</div>
+
+<% end %>

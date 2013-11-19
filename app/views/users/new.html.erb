@@ -1,0 +1,68 @@
+<div class="row margin-small">	 
+	<div class="col-md-4 col-md-push-4">
+		<div class="page-header c-align">
+			<h1>Register Account</h1>
+		</div>
+	</div>
+</div>
+
+<%= form_tag(users_url, method: 'post', class: 'form-horizontal') do %>
+  
+  <div class="form-group"> 
+	<div class="row margin-small">	 
+		<div class="col-md-4 col-md-push-4">
+			<%= text_field_tag :first_name, 'First Name', class: 'form-control' %>
+		</div>
+    	</div>
+
+	<div class="row margin-small">	 
+		<div class="col-md-4 col-md-push-4">
+			<%= text_field_tag :last_name, 'Last Name', class: 'form-control' %>
+		</div>
+    	</div>
+
+	<div class="row margin-small">	 
+		<div class="col-md-4 col-md-push-4">
+			<%= text_field_tag :email, 'Email Address', class: 'form-control' %>
+		</div>
+    	</div>
+
+	<div class="row margin-small">	 
+		<div class="col-md-4 col-md-push-4">
+			<%= text_field_tag :age, 'Age', class: 'form-control' %>
+		</div>
+    	</div>
+
+	<div class="row margin-small">	 
+		<div class="col-md-4 col-md-push-4">
+			<%= text_field_tag :address, 'Address', class: 'form-control' %>
+		</div>
+    	</div>
+
+	<div class="row margin-small">	 
+		<div class="col-md-4 col-md-push-4">
+			<%= text_field_tag :zip, 'Zip Code', class: 'form-control' %>
+		</div>
+    	</div>
+
+	<div class="row margin-small">	 
+		<div class="col-md-4 col-md-push-4">
+			<%= text_field_tag :password, 'Password', class: 'form-control' %>
+		</div>
+    	</div>
+
+	<div class="row margin-small">	 
+		<div class="col-md-4 col-md-push-4">
+			<%= text_field_tag :password_confirm, 'Confirm Password', class: 'form-control' %>
+		</div>
+    	</div>
+
+	<div class="row margin-small">	 
+		<div class="col-md-4 col-md-push-4">
+			<%= submit_tag "Register Account", class: 'f-right' %>
+		</div>
+	</div>
+
+  </div>
+
+<% end %>

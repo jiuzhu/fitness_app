@@ -1,0 +1,22 @@
+<h1>Editing Challenge #<%= @challenge.id %></h1>
+
+<%= form_tag(challenge_url(@challenge), method: 'patch') do %>
+  <div>
+    <%= label_tag :name %><br />
+    <%= text_field_tag :name, @challenge.name %>
+  </div>
+
+  <div>
+    <%= label_tag :data_type_id %><br />
+    <%= number_field_tag :data_type_id, @challenge.data_type_id %>
+  </div>
+
+  <div>
+    <%= label_tag :value %><br />
+    <%= text_field_tag :value, @challenge.value %>
+  </div>
+
+  <div>
+    <%= submit_tag "Update Challenge" %>
+  </div>
+<% end %>

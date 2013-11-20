@@ -1,0 +1,25 @@
+<div class="row margin-small">	 
+	<div class="col-md-4 col-md-push-4">
+		<div class="page-header c-align">
+			<h1>Join Group</h1>
+		</div>
+	</div>
+</div>
+
+<div class="row margin-small">
+	<div class = "col-md-4 col-md-push-4" >
+			<%= form_tag(join_existing_url, method: 'post', class: 'form-horizontal') do %>
+       	   	<select name="group_id" class="form-control">
+        	<% Group.all.each do |group| %>
+       			<option value="<%= group.id %>"><%= group.name %></option>
+	        <% end %>
+	    </select>
+	</div>
+</div>
+
+<div class="row margin-small">	
+	<div class = "col-md-4 col-md-push-4 ">
+        <%= submit_tag "Join Group", class: 'btn btn-primary f-right' %>
+		<% end %>
+	</div>
+</div>

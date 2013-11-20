@@ -1,5 +1,25 @@
 FitnessApp::Application.routes.draw do
 
+#GET = pull down the page
+#POST = create new record
+#PATCH = update existing record
+  # Routes for the Activity resource:
+  # CREATE
+  get '/activities/new', controller: 'activities', action: 'new', as: 'new_activity'
+  post '/activities', controller: 'activities', action: 'create', as: 'activities'
+
+  # READ
+  get '/activities', controller: 'activities', action: 'index'
+  get '/activities/:id', controller: 'activities', action: 'show', as: 'activity'
+
+  # UPDATE
+  get '/activities/:id/edit', controller: 'activities', action: 'edit', as: 'edit_activity'
+  patch '/activities/:id', controller: 'activities', action: 'update'
+
+  # DELETE
+  delete '/activities/:id', controller: 'activities', action: 'destroy'
+  #------------------------------
+
   # Homepage
   get '/', controller: 'homepage', action: 'index'
 
@@ -21,9 +41,14 @@ FitnessApp::Application.routes.draw do
   #------------------------------
 
   # Routes for the Group resource:
+# JOIN EXISTING
+  get '/groups/join', controller: 'groups', action: 'existing', as: 'existing'
+  post '/groups/join', controller: 'groups', action: 'joinexisting', as: 'join_existing'
+
   # CREATE
   get '/groups/new', controller: 'groups', action: 'new', as: 'new_group'
   post '/groups', controller: 'groups', action: 'create', as: 'groups'
+
 
   # READ
   get '/groups', controller: 'groups', action: 'index'

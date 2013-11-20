@@ -1,0 +1,32 @@
+<h1>Editing Activity #<%= @activity.id %></h1>
+
+<%= form_tag(activity_url(@activity), method: 'patch') do %>
+  <div>
+    <%= label_tag :user_id %><br />
+    <%= number_field_tag :user_id, @activity.user_id %>
+  </div>
+
+  <div>
+    <%= label_tag :date %><br />
+    <%= text_field_tag :date, @activity.date %>
+  </div>
+
+  <div>
+    <%= label_tag :steps %><br />
+    <%= number_field_tag :steps, @activity.steps %>
+  </div>
+
+  <div>
+    <%= label_tag :miles %><br />
+    <%= number_field_tag :miles, @activity.miles %>
+  </div>
+
+  <div>
+    <%= label_tag :calories %><br />
+    <%= number_field_tag :calories, @activity.calories %>
+  </div>
+
+  <div>
+    <%= submit_tag "Update Activity" %>
+  </div>
+<% end %>

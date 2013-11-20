@@ -1,0 +1,69 @@
+<div class="row margin-small">   
+  <div class="col-md-4 col-md-push-4">
+    <div class="page-header c-align">
+     <h1>My Activities</h1>
+      </div>
+  </div>
+</div>
+
+<div class="row margin-small">   
+  <div class="col-md-4 col-md-push-4 c-align">
+      Date      
+      <!-- <%= link_to 'Add a New Challenge', new_challenge_url %></p> -->
+  </div>
+</div>
+
+
+<div class="row margin-small">   
+  <div class="col-md-4 col-md-push-4 c-align">
+      Steps <%= number_with_delimiter(@steps) %>     
+      <!-- <%= link_to 'Add a New Challenge', new_challenge_url %></p> -->
+  </div>
+</div>
+
+<div class="row margin-small">   
+  <div class="col-md-4 col-md-push-4 c-align">
+      Miles <%= number_with_delimiter (@miles) %>  
+  </div>  
+</div>
+
+<div class="row margin-small">   
+  <div class="col-md-4 col-md-push-4 c-align">
+      Calories  <%= number_with_delimiter (@calories) %>  
+  </div>  
+</div>
+
+<!--
+<<p><%= link_to 'Add a New Activity', new_activity_url %></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Date</th>
+      <th>Steps</th>
+      <th>Miles</th>
+      <th>Calories</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @activities.each do |activity| %>
+    <tr>
+      <td><%= activity.user_id %></td>
+      <td><%= activity.date %></td>
+      <td><%= activity.steps %></td>
+      <td><%= activity.miles %></td>
+      <td><%= activity.calories %></td>
+      <td><%= link_to 'Show', activity_url(activity) %></td>
+      <td><%= link_to 'Edit', edit_activity_url(activity) %></td>
+      <td><%= link_to 'Destroy', activity_url(activity), method: 'delete', data: { confirm: "Do you really want to delete this activity?" } %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table> -->
+
+

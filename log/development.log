@@ -6912,3 +6912,4118 @@ Started GET "/" for 127.0.0.1 at 2013-11-19 12:46:19 -0500
 Processing by HomepageController#index as HTML
   Rendered homepage/index.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 13ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 15:34:35 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 112ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 15:34:35 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 15:34:35 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 15:34:35 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 15:34:35 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 15:34:35 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 15:34:35 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 15:34:35 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 15:34:35 -0600
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 15:34:42 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 14ms (Views: 10.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 15:34:45 -0600
+Processing by ChallengesController#index as HTML
+  [1m[36mChallenge Load (0.2ms)[0m  [1mSELECT "challenges".* FROM "challenges"[0m
+  Rendered challenges/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 10ms (Views: 7.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 15:34:51 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 15:35:11 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 15:35:12 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 15:35:15 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 15:35:16 -0600
+Processing by ChallengesController#index as HTML
+  [1m[36mChallenge Load (0.2ms)[0m  [1mSELECT "challenges".* FROM "challenges"[0m
+  Rendered challenges/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 15:35:18 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 25ms (Views: 24.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 15:37:51 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 15:37:52 -0600
+Processing by ChallengesController#index as HTML
+  [1m[36mChallenge Load (0.2ms)[0m  [1mSELECT "challenges".* FROM "challenges"[0m
+  Rendered challenges/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 15:37:53 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-19 15:37:55 -0600
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/groups" for 127.0.0.1 at 2013-11-19 15:38:02 -0600
+Processing by GroupsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "name"=>"Test group 2", "commit"=>"Create Group"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "groups" ("name") VALUES (?)  [["name", "Test group 2"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/groups
+Completed 302 Found in 14ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 15:38:02 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/groups/3" for 127.0.0.1 at 2013-11-19 15:38:12 -0600
+Processing by GroupsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "id"=>"3"}
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups" WHERE "groups"."id" = 3 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (5.0ms)[0m  [1mDELETE FROM "groups" WHERE "groups"."id" = ?[0m  [["id", 3]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/groups
+Completed 302 Found in 17ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 15:38:12 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/groups/2" for 127.0.0.1 at 2013-11-19 15:38:17 -0600
+Processing by GroupsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "id"=>"2"}
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups" WHERE "groups"."id" = 2 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "groups" WHERE "groups"."id" = ?  [["id", 2]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/groups
+Completed 302 Found in 6ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 15:38:18 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 15:38:45 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 17:11:37 -0600
+Processing by ChallengesController#index as HTML
+  [1m[36mChallenge Load (15.1ms)[0m  [1mSELECT "challenges".* FROM "challenges"[0m
+  Rendered challenges/index.html.erb within layouts/application (87.5ms)
+Completed 200 OK in 209ms (Views: 136.7ms | ActiveRecord: 15.1ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:11:37 -0600
+
+
+Started GET "/challenges/index" for 127.0.0.1 at 2013-11-19 17:11:46 -0600
+Processing by ChallengesController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[35mChallenge Load (0.2ms)[0m  SELECT "challenges".* FROM "challenges" WHERE "challenges"."id" = 0 LIMIT 1
+  Rendered challenges/show.html.erb within layouts/application (92.7ms)
+Completed 500 Internal Server Error in 111ms
+
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    1: <h1>Challenge #<%= @challenge.id %></h1>
+    2: 
+    3: <dl>
+    4:   <dt>Name</dt>
+  app/views/challenges/show.html.erb:1:in `_app_views_challenges_show_html_erb___3366529258347649888_2179347800'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (38.8ms)
+
+
+Started GET "/challenges/index.html" for 127.0.0.1 at 2013-11-19 17:11:50 -0600
+Processing by ChallengesController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[36mChallenge Load (0.3ms)[0m  [1mSELECT "challenges".* FROM "challenges" WHERE "challenges"."id" = 0 LIMIT 1[0m
+  Rendered challenges/show.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    1: <h1>Challenge #<%= @challenge.id %></h1>
+    2: 
+    3: <dl>
+    4:   <dt>Name</dt>
+  app/views/challenges/show.html.erb:1:in `_app_views_challenges_show_html_erb___3366529258347649888_2179347800'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.4ms)
+
+
+Started GET "/challenges/" for 127.0.0.1 at 2013-11-19 17:11:55 -0600
+Processing by ChallengesController#index as HTML
+  [1m[35mChallenge Load (0.3ms)[0m  SELECT "challenges".* FROM "challenges"
+  Rendered challenges/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:11:55 -0600
+
+
+Started GET "/challenges/new" for 127.0.0.1 at 2013-11-19 17:13:57 -0600
+Processing by ChallengesController#new as HTML
+  Rendered challenges/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/challenges" for 127.0.0.1 at 2013-11-19 17:14:08 -0600
+Processing by ChallengesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "name"=>"Test", "data_type_id"=>"12", "value"=>"12", "commit"=>"Create Challenge"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (14.6ms)[0m  INSERT INTO "challenges" ("data_type_id", "name", "value") VALUES (?, ?, ?)  [["data_type_id", 12], ["name", "Test"], ["value", 12.0]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/challenges
+Completed 302 Found in 153ms (ActiveRecord: 16.5ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 17:14:08 -0600
+Processing by ChallengesController#index as HTML
+  [1m[35mChallenge Load (0.4ms)[0m  SELECT "challenges".* FROM "challenges"
+  Rendered challenges/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:14:08 -0600
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 17:14:26 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 17:14:41 -0600
+Processing by ChallengesController#index as HTML
+  [1m[35mChallenge Load (0.3ms)[0m  SELECT "challenges".* FROM "challenges"
+  Rendered challenges/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:14:42 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:14:42 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:14:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:14:42 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:14:42 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:14:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:14:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:14:42 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 17:19:17 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 17:19:19 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 17:19:21 -0600
+Processing by ChallengesController#index as HTML
+  [1m[35mChallenge Load (0.3ms)[0m  SELECT "challenges".* FROM "challenges"
+  Rendered challenges/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 17:19:29 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 17:19:33 -0600
+Processing by ChallengesController#index as HTML
+  [1m[35mChallenge Load (0.2ms)[0m  SELECT "challenges".* FROM "challenges"
+  Rendered challenges/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 17:20:27 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 17:25:56 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:25:56 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:25:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:25:56 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:25:56 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:25:56 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:25:56 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:25:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:25:56 -0600
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 17:25:58 -0600
+Processing by ChallengesController#index as HTML
+  [1m[36mChallenge Load (0.2ms)[0m  [1mSELECT "challenges".* FROM "challenges"[0m
+  Rendered challenges/index.html.erb within layouts/application (11.2ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined local variable or method `group' for #<#<Class:0x00000103d2fb00>:0x00000101d54218>):
+    30:   <div class="col-md-12 c-align">
+    31:   <% @challenges.each do |challenge| %>
+    32:       <%= challenge.name %>
+    33:       <%= link_to 'Withdraw From Challenge', group_url(group), method: 'delete', data: { confirm: "Do you really want to withdraw from this group?" } %>
+    34:     
+    35:   <% end %>
+    36:   </div>
+  app/views/challenges/index.html.erb:33:in `block in _app_views_challenges_index_html_erb__560806356774675494_2164035020'
+  app/views/challenges/index.html.erb:31:in `_app_views_challenges_index_html_erb__560806356774675494_2164035020'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.7ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 17:25:59 -0600
+Processing by ChallengesController#index as HTML
+  [1m[35mChallenge Load (0.3ms)[0m  SELECT "challenges".* FROM "challenges"
+  Rendered challenges/index.html.erb within layouts/application (17.3ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined local variable or method `group' for #<#<Class:0x00000103d2fb00>:0x000001020f5480>):
+    30:   <div class="col-md-12 c-align">
+    31:   <% @challenges.each do |challenge| %>
+    32:       <%= challenge.name %>
+    33:       <%= link_to 'Withdraw From Challenge', group_url(group), method: 'delete', data: { confirm: "Do you really want to withdraw from this group?" } %>
+    34:     
+    35:   <% end %>
+    36:   </div>
+  app/views/challenges/index.html.erb:33:in `block in _app_views_challenges_index_html_erb__560806356774675494_2164760460'
+  app/views/challenges/index.html.erb:31:in `_app_views_challenges_index_html_erb__560806356774675494_2164760460'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.1ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 17:26:00 -0600
+Processing by ChallengesController#index as HTML
+  [1m[36mChallenge Load (0.2ms)[0m  [1mSELECT "challenges".* FROM "challenges"[0m
+  Rendered challenges/index.html.erb within layouts/application (15.8ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (undefined local variable or method `group' for #<#<Class:0x00000103d2fb00>:0x000001023559a0>):
+    30:   <div class="col-md-12 c-align">
+    31:   <% @challenges.each do |challenge| %>
+    32:       <%= challenge.name %>
+    33:       <%= link_to 'Withdraw From Challenge', group_url(group), method: 'delete', data: { confirm: "Do you really want to withdraw from this group?" } %>
+    34:     
+    35:   <% end %>
+    36:   </div>
+  app/views/challenges/index.html.erb:33:in `block in _app_views_challenges_index_html_erb__560806356774675494_2164760460'
+  app/views/challenges/index.html.erb:31:in `_app_views_challenges_index_html_erb__560806356774675494_2164760460'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.0ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 17:26:30 -0600
+Processing by ChallengesController#index as HTML
+  [1m[35mChallenge Load (0.3ms)[0m  SELECT "challenges".* FROM "challenges"
+  Rendered challenges/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 41ms (Views: 38.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:26:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:26:30 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:26:30 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:26:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:26:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:26:30 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:26:30 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:26:30 -0600
+
+
+Started GET "/challenges/new" for 127.0.0.1 at 2013-11-19 17:26:43 -0600
+Processing by ChallengesController#new as HTML
+  Rendered challenges/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/challenges" for 127.0.0.1 at 2013-11-19 17:26:58 -0600
+Processing by ChallengesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "name"=>"Run 100 Miles", "data_type_id"=>"12", "value"=>"100", "commit"=>"Create Challenge"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "challenges" ("data_type_id", "name", "value") VALUES (?, ?, ?)  [["data_type_id", 12], ["name", "Run 100 Miles"], ["value", 100.0]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/challenges
+Completed 302 Found in 4ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 17:26:58 -0600
+Processing by ChallengesController#index as HTML
+  [1m[35mChallenge Load (0.3ms)[0m  SELECT "challenges".* FROM "challenges"
+  Rendered challenges/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:26:58 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:26:58 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:26:59 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:26:59 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:26:59 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:26:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:26:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:26:59 -0600
+
+
+Started DELETE "/challenges/2" for 127.0.0.1 at 2013-11-19 17:27:24 -0600
+Processing by ChallengesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "id"=>"2"}
+  [1m[36mChallenge Load (0.3ms)[0m  [1mSELECT "challenges".* FROM "challenges" WHERE "challenges"."id" = 2 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "challenges" WHERE "challenges"."id" = ?[0m  [["id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/challenges
+Completed 302 Found in 6ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 17:27:24 -0600
+Processing by ChallengesController#index as HTML
+  [1m[36mChallenge Load (0.3ms)[0m  [1mSELECT "challenges".* FROM "challenges"[0m
+  Rendered challenges/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:27:24 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:27:24 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:27:24 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:27:24 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:27:24 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:27:25 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:27:25 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:27:25 -0600
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 17:32:42 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 17:32:44 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 17:32:47 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:32:47 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:32:47 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:32:47 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:32:47 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:32:47 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:32:47 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:32:47 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:32:47 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:44:02 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'bin/rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.1) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.1) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__4219402714558623655__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.3ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:44:11 -0600
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'bin/rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.1) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.1) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__4219402714558623655__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.6ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:44:12 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'bin/rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.1) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.1) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__4219402714558623655__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (38.7ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:44:15 -0600
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'bin/rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.1) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.1) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__4219402714558623655__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.7ms)
+
+
+Started GET "/activities/new" for 127.0.0.1 at 2013-11-19 17:44:19 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActiveRecord::PendingMigrationError (Migrations are pending; run 'bin/rake db:migrate RAILS_ENV=development' to resolve this issue.):
+  activerecord (4.0.1) lib/active_record/migration.rb:379:in `check_pending!'
+  activerecord (4.0.1) lib/active_record/migration.rb:366:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__4219402714558623655__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.9ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateActivities (20131119234227)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.7ms)[0m  [1mCREATE TABLE "activities" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer, "date" date, "steps" integer, "miles" integer, "calories" integer) [0m
+  [1m[35mSQL (3.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131119234227"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/activities/new" for 127.0.0.1 at 2013-11-19 17:45:15 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ActivitiesController#new as HTML
+  Rendered activities/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 149ms (Views: 102.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:45:16 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:45:16 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:45:16 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:45:16 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:45:16 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:45:16 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:45:16 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:45:16 -0600
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 17:45:38 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 17ms (Views: 11.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 17:45:40 -0600
+Processing by ChallengesController#index as HTML
+  [1m[36mChallenge Load (0.3ms)[0m  [1mSELECT "challenges".* FROM "challenges"[0m
+  Rendered challenges/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 24ms (Views: 16.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 17:45:43 -0600
+Processing by ChallengesController#index as HTML
+  [1m[35mChallenge Load (0.2ms)[0m  SELECT "challenges".* FROM "challenges"
+  Rendered challenges/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 17:46:04 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:46:04 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:46:04 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:46:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:46:04 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:46:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:46:04 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:46:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:46:04 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 17:46:30 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:46:31 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 41ms (Views: 37.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:46:31 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:46:31 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:46:31 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:46:31 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:46:31 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:46:31 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:46:31 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:46:31 -0600
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 17:49:01 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 17:49:05 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:49:06 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/activities/new" for 127.0.0.1 at 2013-11-19 17:49:11 -0600
+Processing by ActivitiesController#new as HTML
+  Rendered activities/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/activities" for 127.0.0.1 at 2013-11-19 17:49:25 -0600
+Processing by ActivitiesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "user_id"=>"12", "date"=>"1/2/13", "steps"=>"2245", "miles"=>"20", "calories"=>"1000", "commit"=>"Create Activity"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (6.8ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1000], ["date", Sun, 13 Feb 0001], ["miles", 20], ["steps", 2245], ["user_id", 12]]
+  [1m[35m (0.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/activities
+Completed 302 Found in 24ms (ActiveRecord: 8.3ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:49:25 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:49:25 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:49:25 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:49:25 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:49:25 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:49:25 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:49:25 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:49:25 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:49:25 -0600
+
+
+Started DELETE "/activities/1" for 127.0.0.1 at 2013-11-19 17:50:06 -0600
+Processing by ActivitiesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "id"=>"1"}
+  [1m[35mActivity Load (0.4ms)[0m  SELECT "activities".* FROM "activities" WHERE "activities"."id" = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "activities" WHERE "activities"."id" = ?  [["id", 1]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/activities
+Completed 302 Found in 13ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:50:06 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.3ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:50:06 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:50:06 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:50:06 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:50:06 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:50:06 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:50:06 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:50:06 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:50:06 -0600
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 17:50:12 -0600
+Processing by ChallengesController#index as HTML
+  [1m[36mChallenge Load (0.2ms)[0m  [1mSELECT "challenges".* FROM "challenges"[0m
+  Rendered challenges/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:50:36 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/activities/new" for 127.0.0.1 at 2013-11-19 17:52:02 -0600
+Processing by ActivitiesController#new as HTML
+  Rendered activities/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/activities" for 127.0.0.1 at 2013-11-19 17:52:17 -0600
+Processing by ActivitiesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "user_id"=>"12", "date"=>"1/3/13", "steps"=>"10000", "miles"=>"6", "calories"=>"4000", "commit"=>"Create Activity"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 4000], ["date", Sun, 13 Mar 0001], ["miles", 6], ["steps", 10000], ["user_id", 12]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/activities
+Completed 302 Found in 5ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:52:17 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.3ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:52:18 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:52:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:18 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:52:18 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:18 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:18 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:18 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:18 -0600
+
+
+Started GET "/activities/new" for 127.0.0.1 at 2013-11-19 17:52:22 -0600
+Processing by ActivitiesController#new as HTML
+  Rendered activities/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/activities" for 127.0.0.1 at 2013-11-19 17:52:32 -0600
+Processing by ActivitiesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "user_id"=>"12", "date"=>"1/4/13", "steps"=>"2111", "miles"=>"2", "calories"=>"100", "commit"=>"Create Activity"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 100], ["date", Wed, 13 Apr 0001], ["miles", 2], ["steps", 2111], ["user_id", 12]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/activities
+Completed 302 Found in 5ms (ActiveRecord: 1.5ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:52:32 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.3ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 16ms (Views: 12.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:52:32 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:52:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:32 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:52:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:32 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:32 -0600
+
+
+Started GET "/activities/new" for 127.0.0.1 at 2013-11-19 17:52:34 -0600
+Processing by ActivitiesController#new as HTML
+  Rendered activities/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/activities" for 127.0.0.1 at 2013-11-19 17:52:45 -0600
+Processing by ActivitiesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "user_id"=>"12", "date"=>"1/14/13", "steps"=>"20000", "miles"=>"20", "calories"=>"40000", "commit"=>"Create Activity"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "miles", "steps", "user_id") VALUES (?, ?, ?, ?)  [["calories", 40000], ["miles", 20], ["steps", 20000], ["user_id", 12]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/activities
+Completed 302 Found in 4ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:52:45 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.3ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:52:45 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:52:45 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:45 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:45 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:45 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:52:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:46 -0600
+
+
+Started GET "/activities/new" for 127.0.0.1 at 2013-11-19 17:52:48 -0600
+Processing by ActivitiesController#new as HTML
+  Rendered activities/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/activities" for 127.0.0.1 at 2013-11-19 17:52:58 -0600
+Processing by ActivitiesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "user_id"=>"500", "date"=>"2/2/13", "steps"=>"10000", "miles"=>"100", "calories"=>"1", "commit"=>"Create Activity"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1], ["date", Mon, 13 Feb 0002], ["miles", 100], ["steps", 10000], ["user_id", 500]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/activities
+Completed 302 Found in 5ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:52:58 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.3ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:52:59 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:59 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:52:59 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:52:59 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:59 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:59 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:59 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:52:59 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:54:58 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.4ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:54:58 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:54:58 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:54:58 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:54:58 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:54:58 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:54:58 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:54:58 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:54:58 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:55:32 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:55:32 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:55:32 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:55:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:55:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:55:32 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:55:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:55:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:55:32 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:55:55 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:55:55 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:55:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:55:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:55:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:55:55 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:55:55 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:55:55 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:55:55 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:56:11 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.3ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:56:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:56:11 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:56:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:56:11 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:56:11 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:56:11 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:56:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:56:11 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:56:51 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.4ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:56:51 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:56:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:56:51 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:56:51 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:56:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:56:51 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:56:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:56:51 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:57:24 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.3ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:57:24 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:57:24 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:57:24 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:57:24 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:57:24 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:57:24 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:57:24 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:57:24 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 17:59:03 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.4ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 17:59:04 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 17:59:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 17:59:04 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 17:59:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 17:59:04 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 17:59:04 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 17:59:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 17:59:04 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 18:01:08 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 18:01:08 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 18:01:08 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 18:01:08 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 18:01:08 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 18:01:08 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 18:01:08 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 18:01:08 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 18:01:08 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 18:01:43 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 18:01:43 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 18:01:43 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 18:01:43 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 18:01:43 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 18:01:43 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 18:01:43 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 18:01:43 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 18:01:43 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 18:12:41 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (1.4ms)[0m  SELECT "activities".* FROM "activities"
+Completed 500 Internal Server Error in 17ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/activities_controller.rb:11:in `block in index'
+  app/controllers/activities_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.6ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 18:14:05 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.6ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+Completed 500 Internal Server Error in 13ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/activities_controller.rb:11:in `block in index'
+  app/controllers/activities_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.1ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 18:14:43 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.7ms)[0m  SELECT "activities".* FROM "activities"
+Completed 500 Internal Server Error in 13ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/activities_controller.rb:11:in `block in index'
+  app/controllers/activities_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.8ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 18:16:24 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.5ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+Completed 500 Internal Server Error in 13ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/activities_controller.rb:11:in `block in index'
+  app/controllers/activities_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.2ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 18:17:41 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.6ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 69ms (Views: 65.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 18:17:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 18:17:41 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 18:17:41 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 18:17:41 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 18:17:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 18:17:41 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 18:17:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 18:17:41 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 18:25:31 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 18:25:31 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 18:25:32 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 18:25:32 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 18:25:32 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 18:25:32 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 18:25:32 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 18:25:32 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 18:25:32 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 18:25:33 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.3ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 18:25:33 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 18:25:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 18:25:33 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 18:25:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 18:25:33 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 18:25:33 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 18:25:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 18:25:33 -0600
+  [1m[36mActivity Load (2.1ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 19:11:10 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:11:11 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:11:11 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:11:11 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:11:11 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:11:11 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:11:11 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:11:11 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:11:11 -0600
+  [1m[36mActivity Load (3.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  [1m[35mActivity Load (0.4ms)[0m  SELECT "activities".* FROM "activities"
+  [1m[36mActivity Load (0.4ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:16:48 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.6ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+Completed 500 Internal Server Error in 11ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/activities_controller.rb:11:in `block in index'
+  app/controllers/activities_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.8ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:16:48 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.3ms)[0m  SELECT "activities".* FROM "activities"
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/activities_controller.rb:11:in `block in index'
+  app/controllers/activities_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.4ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:17:06 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.5ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+Completed 500 Internal Server Error in 14ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/activities_controller.rb:11:in `block in index'
+  app/controllers/activities_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:17:19 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.5ms)[0m  SELECT "activities".* FROM "activities"
+Completed 500 Internal Server Error in 14ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/activities_controller.rb:11:in `block in index'
+  app/controllers/activities_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (30.9ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:17:38 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.7ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 23ms (Views: 10.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:17:38 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:17:38 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:17:38 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:17:38 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:17:38 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:17:38 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:17:38 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:17:38 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:19:18 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.5ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 60ms (Views: 46.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:19:18 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:19:18 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:19:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:19:18 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:19:18 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:19:18 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:19:18 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:19:18 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:19:38 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.5ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/activities_controller.rb:11:in `block in index'
+  app/controllers/activities_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.9ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:20:09 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.6ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 23ms (Views: 10.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:20:09 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:20:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:20:09 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:20:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:20:09 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:20:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:20:09 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:20:09 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:22:02 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.9ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 25ms (Views: 11.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:22:02 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:22:02 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:22:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:22:02 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:22:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:22:02 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:22:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:22:02 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:22:45 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.3ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:22:45 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:22:45 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:22:45 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:22:45 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:22:45 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:22:45 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:22:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:22:45 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:24:46 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:24:46 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:24:46 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:24:46 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:24:46 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:24:46 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:24:46 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:24:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:24:46 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:25:03 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.4ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 51ms (Views: 48.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:04 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:04 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:25:04 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:25:04 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:04 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:25:04 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:04 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:04 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:25:27 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.4ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 21ms (Views: 18.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:25:27 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:27 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:25:27 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:25:27 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:27 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:27 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:27 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:27 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:25:36 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.4ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 14ms (Views: 11.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:25:36 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:25:36 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:25:36 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:36 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:37 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:37 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:37 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:37 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:25:44 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.4ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 19ms (Views: 15.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:25:44 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:25:44 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:25:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:44 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:25:44 -0600
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 19:27:33 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 52ms (Views: 48.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 19:27:34 -0600
+Processing by ChallengesController#index as HTML
+  [1m[36mChallenge Load (0.2ms)[0m  [1mSELECT "challenges".* FROM "challenges"[0m
+  Rendered challenges/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 16ms (Views: 12.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 19:27:41 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:27:44 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 19:27:51 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-19 19:27:57 -0600
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/groups" for 127.0.0.1 at 2013-11-19 19:28:05 -0600
+Processing by GroupsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "name"=>"Kellogg 2014", "commit"=>"Create Group"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "groups" ("name") VALUES (?)[0m  [["name", "Kellogg 2014"]]
+  [1m[35m (3.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/groups
+Completed 302 Found in 14ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 19:28:05 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:28:06 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:28:06 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:28:06 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:28:06 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:28:06 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:28:06 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:28:06 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:28:06 -0600
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-19 19:28:09 -0600
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/groups" for 127.0.0.1 at 2013-11-19 19:28:14 -0600
+Processing by GroupsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "name"=>"Kellogg 2014", "commit"=>"Create Group"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "groups" ("name") VALUES (?)[0m  [["name", "Kellogg 2014"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/groups
+Completed 302 Found in 5ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 19:28:14 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:28:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:28:14 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:28:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:28:14 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:28:14 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:28:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:28:14 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:28:14 -0600
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-19 19:28:17 -0600
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 19:29:44 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.3ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateGroupUsers (20131120013259)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "group_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "group_id" integer, "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (2.9ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20131120013259"]]
+  [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:42:14 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/Users/jwang/Desktop/github/fitness_app/app/controllers/groups_controller.rb:49: syntax error, unexpected $end, expecting keyword_end):
+  activesupport (4.0.1) lib/active_support/dependencies.rb:424:in `load'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:424:in `block in load_file'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:616:in `new_constants_in'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:423:in `load_file'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:324:in `require_or_load'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:463:in `load_missing_constant'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:535:in `get'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:566:in `constantize'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__3294374014343165959__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (55.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (79.6ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:42:37 -0600
+Processing by GroupsController#show as HTML
+  Parameters: {"id"=>"join"}
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups" WHERE "groups"."id" = 0 LIMIT 1
+  Rendered groups/show.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+     8: 
+     9: <div class="row margin-small">	 
+    10: 	<div class="col-md-4 col-md-push-4">
+    11: 		<%= @group.name %>
+    12: 	</div>
+    13: </div>
+  app/views/groups/show.html.erb:11:in `_app_views_groups_show_html_erb___4526568109712431490_2159085280'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (21.7ms)
+
+
+Started GET "/groups/1/join" for 127.0.0.1 at 2013-11-19 19:43:20 -0600
+Processing by GroupsController#joinexisting as HTML
+  Parameters: {"id"=>"1"}
+  Rendered groups/joinexisting.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 57ms (Views: 56.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:43:20 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:43:20 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:43:20 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:43:20 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:43:20 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:43:20 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:43:20 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:43:20 -0600
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 19:43:23 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-19 19:43:25 -0600
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/groups" for 127.0.0.1 at 2013-11-19 19:43:29 -0600
+Processing by GroupsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "name"=>"kelloggGroup Name", "commit"=>"Create Group"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (2.9ms)[0m  [1mINSERT INTO "groups" ("name") VALUES (?)[0m  [["name", "kelloggGroup Name"]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/groups
+Completed 302 Found in 12ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 19:43:29 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:43:29 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:43:29 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:43:29 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:43:29 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:43:29 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:43:29 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:43:29 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:43:29 -0600
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-19 19:43:34 -0600
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:45:11 -0600
+Processing by GroupsController#show as HTML
+  Parameters: {"id"=>"join"}
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups" WHERE "groups"."id" = 0 LIMIT 1
+  Rendered groups/show.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+     8: 
+     9: <div class="row margin-small">	 
+    10: 	<div class="col-md-4 col-md-push-4">
+    11: 		<%= @group.name %>
+    12: 	</div>
+    13: </div>
+  app/views/groups/show.html.erb:11:in `_app_views_groups_show_html_erb___4526568109712431490_2169080200'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.7ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:45:56 -0600
+Processing by GroupsController#joinexisting as HTML
+  Rendered groups/joinexisting.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:45:56 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:45:56 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:45:56 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:45:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:45:56 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:45:56 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:45:56 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:45:56 -0600
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 19:46:23 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.7ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-19 19:46:25 -0600
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-19 19:46:57 -0600
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-19 19:47:09 -0600
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:47:09 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:47:09 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:47:09 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:47:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:47:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:47:09 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:47:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:47:09 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 19:47:11 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.4ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 57ms (Views: 45.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 19:47:13 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:47:14 -0600
+Processing by GroupsController#joinexisting as HTML
+  Rendered groups/joinexisting.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 19:47:32 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:47:34 -0600
+Processing by GroupsController#joinexisting as HTML
+  Rendered groups/joinexisting.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:47:55 -0600
+Processing by GroupsController#joinexisting as HTML
+  Rendered groups/joinexisting.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:47:55 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:47:55 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:47:55 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:47:55 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:47:55 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:47:56 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:47:56 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:47:56 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:49:27 -0600
+Processing by GroupsController#joinexisting as HTML
+ERROR: compiling _app_views_groups_joinexisting_html_erb__4415492412989477817_2166628580 RAISED /Users/jwang/Desktop/github/fitness_app/app/views/groups/joinexisting.html.erb:20: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/jwang/Desktop/github/fitness_app/app/views/groups/joinexisting.html.erb:22: syntax error, unexpected $end, expecting keyword_end
+Function body:           def _app_views_groups_joinexisting_html_erb__4415492412989477817_2166628580(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "groups/joinexisting";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_append='<div class="row margin-small">	 
+	<div class="col-md-4 col-md-push-4">
+		<div class="page-header c-align">
+			<h1>Join Group</h1>
+		</div>
+	</div>
+</div>
+';@output_buffer.append=  form_tag(meetings_url, method: 'post', class: 'form-horizontal') do @output_buffer.safe_append='
+
+      <select name="course_id" class="form-control">
+';         Course.all.each do |course| 
+@output_buffer.safe_append='
+          <option value="';@output_buffer.append=( course.id );@output_buffer.safe_append='">';@output_buffer.append=( course.title );@output_buffer.safe_append='</option>
+
+';         end 
+@output_buffer.safe_append='      </select>
+
+            ';@output_buffer.append=( submit_tag "Create Meeting", class: 'btn btn-primary' );@output_buffer.safe_append='
+';@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `module_eval'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_view/template.rb:299:in `compile'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_view/template.rb:248:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_view/template.rb:236:in `compile!'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_view/template.rb:142:in `block in render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/notifications.rb:161:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_view/template.rb:141:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_view/renderer/template_renderer.rb:17:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:42:in `render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_view/renderer/renderer.rb:23:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:127:in `_render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:97:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:16:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+/usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:189:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:403:in `_run__240196678836035920__process_action__callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `block in instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/notifications.rb:159:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-4.0.1/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/abstract_controller/base.rb:136:in `process'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/abstract_controller/rendering.rb:44:in `process'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal.rb:195:in `dispatch'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_controller/metal.rb:231:in `block in action'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:48:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:71:in `block in call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `each'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/journey/router.rb:59:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/routing/route_set.rb:680:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/flash.rb:241:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-4.0.1/lib/active_record/query_cache.rb:36:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-4.0.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activerecord-4.0.1/lib/active_record/migration.rb:369:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:373:in `_run__3294374014343165959__call__callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/callbacks.rb:80:in `run_callbacks'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/railties-4.0.1/lib/rails/rack/logger.rb:38:in `call_app'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `block in call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:25:in `tagged'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/tagged_logging.rb:67:in `tagged'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/railties-4.0.1/lib/rails/rack/logger.rb:20:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/activesupport-4.0.1/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/static.rb:64:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/railties-4.0.1/lib/rails/engine.rb:511:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/railties-4.0.1/lib/rails/application.rb:97:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+/usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+  Rendered groups/joinexisting.html.erb within layouts/application (12.9ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (/Users/jwang/Desktop/github/fitness_app/app/views/groups/joinexisting.html.erb:20: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/jwang/Desktop/github/fitness_app/app/views/groups/joinexisting.html.erb:22: syntax error, unexpected $end, expecting keyword_end):
+    17: 
+    18:             <%= submit_tag "Create Meeting", class: 'btn btn-primary' %>
+  actionpack (4.0.1) lib/action_view/template.rb:299:in `module_eval'
+  actionpack (4.0.1) lib/action_view/template.rb:299:in `compile'
+  actionpack (4.0.1) lib/action_view/template.rb:248:in `block in compile!'
+  <internal:prelude>:10:in `synchronize'
+  actionpack (4.0.1) lib/action_view/template.rb:236:in `compile!'
+  actionpack (4.0.1) lib/action_view/template.rb:142:in `block in render'
+  activesupport (4.0.1) lib/active_support/notifications.rb:161:in `instrument'
+  actionpack (4.0.1) lib/action_view/template.rb:141:in `render'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+  actionpack (4.0.1) lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.1) lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+  actionpack (4.0.1) lib/action_view/renderer/template_renderer.rb:17:in `render'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.1) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.1) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.1) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (4.0.1) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.1) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:403:in `_run__240196678836035920__process_action__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.1) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.1) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.1) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.1) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.1) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.1) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__3294374014343165959__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.2ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:49:45 -0600
+Processing by GroupsController#joinexisting as HTML
+  Rendered groups/joinexisting.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined local variable or method `meetings_url' for #<#<Class:0x00000102c2fcd8>:0x00000105069090>):
+     5: 		</div>
+     6: 	</div>
+     7: </div>
+     8: <%= form_tag(meetings_url, method: 'post', class: 'form-horizontal') do %>
+     9: 
+    10:       <select name="course_id" class="form-control">
+    11:         <% Course.all.each do |course| %>
+  app/views/groups/joinexisting.html.erb:8:in `_app_views_groups_joinexisting_html_erb__4415492412989477817_2189638960'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (44.3ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:50:59 -0600
+Processing by GroupsController#joinexisting as HTML
+  Rendered groups/joinexisting.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Groups):
+     8: <%= form_tag(join_group_url, method: 'post', class: 'form-horizontal') do %>
+     9: 
+    10:       <select name="group_id" class="form-control">
+    11:         <% Groups.all.each do |group| %>
+    12: 
+    13:           <option value="<%= group.id %>"><%= group.name %></option>
+    14: 
+  app/views/groups/joinexisting.html.erb:11:in `block in _app_views_groups_joinexisting_html_erb__4415492412989477817_2165930080'
+  app/views/groups/joinexisting.html.erb:8:in `_app_views_groups_joinexisting_html_erb__4415492412989477817_2165930080'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.5ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:51:01 -0600
+Processing by GroupsController#joinexisting as HTML
+  Rendered groups/joinexisting.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Groups):
+     8: <%= form_tag(join_group_url, method: 'post', class: 'form-horizontal') do %>
+     9: 
+    10:       <select name="group_id" class="form-control">
+    11:         <% Groups.all.each do |group| %>
+    12: 
+    13:           <option value="<%= group.id %>"><%= group.name %></option>
+    14: 
+  app/views/groups/joinexisting.html.erb:11:in `block in _app_views_groups_joinexisting_html_erb__4415492412989477817_2165930080'
+  app/views/groups/joinexisting.html.erb:8:in `_app_views_groups_joinexisting_html_erb__4415492412989477817_2165930080'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.3ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:51:47 -0600
+Processing by GroupsController#joinexisting as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/joinexisting.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:51:47 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:51:47 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:51:47 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:51:47 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:51:47 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:51:47 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:51:47 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:51:47 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:54:18 -0600
+Processing by GroupsController#joinexisting as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/joinexisting.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 16ms (Views: 13.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:54:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:54:18 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:54:18 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:54:18 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:54:18 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:54:18 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:54:18 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:54:18 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:55:00 -0600
+Processing by GroupsController#joinexisting as HTML
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/joinexisting.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:55:00 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:55:00 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:55:00 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:55:00 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:55:00 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:55:00 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:55:00 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:55:00 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:55:02 -0600
+Processing by GroupsController#joinexisting as HTML
+  [1m[35mGroup Load (0.4ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/joinexisting.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:55:02 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:55:02 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:55:02 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:55:02 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:55:02 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:55:02 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:55:02 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:55:02 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:55:44 -0600
+Processing by GroupsController#joinexisting as HTML
+  [1m[36mGroup Load (0.4ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/joinexisting.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:55:44 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:55:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:55:44 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:55:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:55:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:55:44 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:55:44 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:55:44 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:56:12 -0600
+Processing by GroupsController#joinexisting as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/joinexisting.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:56:12 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:56:12 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:56:12 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:56:12 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:56:12 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:56:12 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:56:12 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:56:12 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:56:15 -0600
+Processing by GroupsController#joinexisting as HTML
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/joinexisting.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:56:15 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:56:15 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:56:15 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:56:15 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:56:15 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:56:15 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:56:15 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:56:16 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:57:13 -0600
+Processing by GroupsController#joinexisting as HTML
+  [1m[35mGroup Load (0.4ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/joinexisting.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:57:13 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:57:13 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:57:13 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:57:13 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:57:13 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:57:13 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:57:13 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:57:13 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 19:58:01 -0600
+Processing by GroupsController#joinexisting as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/joinexisting.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 19:58:01 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 19:58:01 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 19:58:01 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 19:58:01 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 19:58:01 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 19:58:01 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 19:58:01 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 19:58:01 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:00:35 -0600
+Processing by GroupsController#joinexisting as HTML
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/joinexisting.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 20:00:35 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 20:00:35 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 20:00:35 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 20:00:35 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 20:00:35 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 20:00:35 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 20:00:35 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 20:00:35 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:01:36 -0600
+Processing by GroupsController#joinexisting as HTML
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/joinexisting.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 20:01:36 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 20:01:36 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 20:01:36 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 20:01:36 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 20:01:36 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 20:01:36 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 20:01:36 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 20:01:36 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:01:44 -0600
+Processing by GroupsController#joinexisting as HTML
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/joinexisting.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 20:01:44 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 20:01:44 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 20:01:44 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 20:01:44 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 20:01:44 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 20:01:44 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 20:01:45 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 20:01:45 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:01:49 -0600
+Processing by GroupsController#joinexisting as HTML
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/joinexisting.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 20:01:49 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 20:01:49 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 20:01:49 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 20:01:49 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 20:01:49 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 20:01:49 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 20:01:49 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 20:01:49 -0600
+
+
+Started POST "/groups/join" for 127.0.0.1 at 2013-11-19 20:01:52 -0600
+
+ActionController::RoutingError (No route matches [POST] "/groups/join"):
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (64.0ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:07:57 -0600
+Processing by GroupsController#joinexisting as HTML
+  Rendered groups/joinexisting.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (No route matches {:controller=>"groups", :action=>"createjoinexisting"} missing required keys: [:group_id]):
+     8: 
+     9: <div class="row margin-small">
+    10: 	<div class = "col-md-4 col-md-push-4" >
+    11: 			<%= form_tag(create_join_existing_url, method: 'post', class: 'form-horizontal') do %>
+    12:        	   	<select name="group_id" class="form-control">
+    13:         	<% Group.all.each do |group| %>
+    14:        			<option value="<%= group.id %>"><%= group.name %></option>
+  app/views/groups/joinexisting.html.erb:11:in `_app_views_groups_joinexisting_html_erb__4415492412989477817_2171226200'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (20.9ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 20:08:46 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.7ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 22ms (Views: 17.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 20:08:46 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 20:08:46 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 20:08:46 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 20:08:46 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 20:08:46 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 20:08:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 20:08:46 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 20:08:46 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:08:48 -0600
+Processing by GroupsController#joinexisting as HTML
+  Rendered groups/joinexisting.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:controller=>"groups", :action=>"createjoinexisting"} missing required keys: [:group_id]):
+     8: 
+     9: <div class="row margin-small">
+    10: 	<div class = "col-md-4 col-md-push-4" >
+    11: 			<%= form_tag(create_join_existing_url, method: 'post', class: 'form-horizontal') do %>
+    12:        	   	<select name="group_id" class="form-control">
+    13:         	<% Group.all.each do |group| %>
+    14:        			<option value="<%= group.id %>"><%= group.name %></option>
+  app/views/groups/joinexisting.html.erb:11:in `_app_views_groups_joinexisting_html_erb__4415492412989477817_2159098420'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.1ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:08:48 -0600
+Processing by GroupsController#joinexisting as HTML
+  Rendered groups/joinexisting.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (No route matches {:controller=>"groups", :action=>"createjoinexisting"} missing required keys: [:group_id]):
+     8: 
+     9: <div class="row margin-small">
+    10: 	<div class = "col-md-4 col-md-push-4" >
+    11: 			<%= form_tag(create_join_existing_url, method: 'post', class: 'form-horizontal') do %>
+    12:        	   	<select name="group_id" class="form-control">
+    13:         	<% Group.all.each do |group| %>
+    14:        			<option value="<%= group.id %>"><%= group.name %></option>
+  app/views/groups/joinexisting.html.erb:11:in `_app_views_groups_joinexisting_html_erb__4415492412989477817_2171226200'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (18.1ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:09:33 -0600
+Processing by GroupsController#joinexisting as HTML
+  [1m[36mGroup Load (0.7ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/joinexisting.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 20ms (Views: 18.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 20:09:33 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 20:09:33 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 20:09:33 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 20:09:33 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 20:09:33 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 20:09:33 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 20:09:33 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 20:09:33 -0600
+
+
+Started POST "/groups/join" for 127.0.0.1 at 2013-11-19 20:10:26 -0600
+
+AbstractController::ActionNotFound (The action 'createjoinexisting' could not be found for GroupsController):
+  actionpack (4.0.1) lib/abstract_controller/base.rb:131:in `process'
+  actionpack (4.0.1) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.1) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.1) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__3294374014343165959__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/groups/" for 127.0.0.1 at 2013-11-19 20:14:12 -0600
+
+SyntaxError (/Users/jwang/Desktop/github/fitness_app/app/controllers/groups_controller.rb:54: syntax error, unexpected $end):
+  activesupport (4.0.1) lib/active_support/dependencies.rb:424:in `load'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:424:in `block in load_file'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:616:in `new_constants_in'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:423:in `load_file'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:324:in `require_or_load'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:463:in `load_missing_constant'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:184:in `const_missing'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:226:in `const_get'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:226:in `block in constantize'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:224:in `each'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:224:in `inject'
+  activesupport (4.0.1) lib/active_support/inflector/methods.rb:224:in `constantize'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:535:in `get'
+  activesupport (4.0.1) lib/active_support/dependencies.rb:566:in `constantize'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.1) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.1) lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.1) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:373:in `_run__3294374014343165959__call__callbacks'
+  activesupport (4.0.1) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.1) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.1) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.1) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.1) lib/rails/engine.rb:511:in `call'
+  railties (4.0.1) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.6ms)
+
+
+Started GET "/groups/" for 127.0.0.1 at 2013-11-19 20:14:33 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.5ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (12.4ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (undefined local variable or method `join_group_url' for #<#<Class:0x00000105358f58>:0x000001053582b0>):
+    15: 
+    16: <div class="row margin-small">	 
+    17: 	<div class="col-md-4 col-md-push-4 c-align">
+    18: 		<%= link_to 'Join An Existing Group', join_group_url %>
+    19: 	</div>
+    20: </div>
+    21: 
+  app/views/groups/index.html.erb:18:in `_app_views_groups_index_html_erb__758801812945296308_2190397320'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.9ms)
+
+
+Started GET "/groups/" for 127.0.0.1 at 2013-11-19 20:15:20 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (16.3ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (undefined local variable or method `join_group_url' for #<#<Class:0x00000105358f58>:0x00000102c28438>):
+    15: 
+    16: <div class="row margin-small">	 
+    17: 	<div class="col-md-4 col-md-push-4 c-align">
+    18: 		<%= link_to 'Join An Existing Group', join_group_url %>
+    19: 	</div>
+    20: </div>
+    21: 
+  app/views/groups/index.html.erb:18:in `_app_views_groups_index_html_erb__758801812945296308_2190397320'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (36.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (50.7ms)
+
+
+Started GET "/groups/" for 127.0.0.1 at 2013-11-19 20:15:23 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (11.0ms)
+Completed 500 Internal Server Error in 14ms
+
+ActionView::Template::Error (undefined local variable or method `join_group_url' for #<#<Class:0x00000105358f58>:0x000001020ee7e8>):
+    15: 
+    16: <div class="row margin-small">	 
+    17: 	<div class="col-md-4 col-md-push-4 c-align">
+    18: 		<%= link_to 'Join An Existing Group', join_group_url %>
+    19: 	</div>
+    20: </div>
+    21: 
+  app/views/groups/index.html.erb:18:in `_app_views_groups_index_html_erb__758801812945296308_2190397320'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (14.7ms)
+
+
+Started GET "/groups/" for 127.0.0.1 at 2013-11-19 20:15:58 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 20:15:58 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 20:15:58 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 20:15:58 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 20:15:58 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 20:15:58 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 20:15:58 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 20:15:58 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 20:15:58 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:16:01 -0600
+Processing by GroupsController#existing as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/existing.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:17:46 -0600
+Processing by GroupsController#existing as HTML
+  [1m[36mGroup Load (0.5ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/existing.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 29ms (Views: 26.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 20:17:46 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 20:17:46 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 20:17:46 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 20:17:46 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 20:17:46 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 20:17:46 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 20:17:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 20:17:46 -0600
+
+
+Started POST "/groups/join" for 127.0.0.1 at 2013-11-19 20:17:51 -0600
+Processing by GroupsController#joinexisting as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "group_id"=>"5", "commit"=>"Join Group"}
+Redirected to http://localhost:3000/groups
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 20:17:51 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 18ms (Views: 16.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 20:17:51 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 20:17:51 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 20:17:51 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 20:17:51 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 20:17:51 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 20:17:51 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 20:17:51 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 20:17:51 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:17:57 -0600
+Processing by GroupsController#existing as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/existing.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 20:18:19 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.3ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 22ms (Views: 11.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 20:18:21 -0600
+Processing by ChallengesController#index as HTML
+  [1m[36mChallenge Load (0.3ms)[0m  [1mSELECT "challenges".* FROM "challenges"[0m
+  Rendered challenges/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 16ms (Views: 13.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 20:18:22 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:18:29 -0600
+Processing by GroupsController#existing as HTML
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/existing.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 20:26:08 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 20:26:10 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.5ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 16ms (Views: 12.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:26:11 -0600
+Processing by GroupsController#existing as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/existing.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:28:24 -0600
+Processing by GroupsController#existing as HTML
+  [1m[35mGroup Load (0.6ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/existing.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 20:28:24 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 20:28:24 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 20:28:24 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 20:28:24 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 20:28:24 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 20:28:24 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 20:28:24 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 20:28:24 -0600
+
+
+Started POST "/groups/join" for 127.0.0.1 at 2013-11-19 20:28:27 -0600
+Processing by GroupsController#joinexisting as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "group_id"=>"1", "commit"=>"Join Group"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (17.1ms)[0m  INSERT INTO "group_users" ("created_at", "group_id", "updated_at", "user_id") VALUES (?, ?, ?, ?)  [["created_at", Wed, 20 Nov 2013 02:28:27 UTC +00:00], ["group_id", 1], ["updated_at", Wed, 20 Nov 2013 02:28:27 UTC +00:00], ["user_id", 1]]
+  [1m[36m (7.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/groups
+Completed 302 Found in 74ms (ActiveRecord: 25.6ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 20:28:27 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 30ms (Views: 26.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 20:28:27 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 20:28:27 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 20:28:27 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 20:28:27 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 20:28:27 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 20:28:27 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 20:28:27 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 20:28:28 -0600
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:28:35 -0600
+Processing by GroupsController#existing as HTML
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/existing.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:29:21 -0600
+Processing by GroupsController#existing as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/existing.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 20:29:21 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 20:29:21 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 20:29:21 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 20:29:21 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 20:29:21 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 20:29:21 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 20:29:21 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 20:29:21 -0600
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 20:29:24 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:29:26 -0600
+Processing by GroupsController#existing as HTML
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/existing.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 20:30:19 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:30:23 -0600
+Processing by GroupsController#existing as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/existing.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 35ms (Views: 34.7ms | ActiveRecord: 0.2ms)
+  [1m[36mGroupUsers Load (4.2ms)[0m  [1mSELECT "group_users".* FROM "group_users"[0m
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 20:33:40 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 20:33:53 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 20:34:01 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.4ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 21ms (Views: 9.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 20:34:02 -0600
+Processing by ChallengesController#index as HTML
+  [1m[35mChallenge Load (0.2ms)[0m  SELECT "challenges".* FROM "challenges"
+  Rendered challenges/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 15ms (Views: 12.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 20:34:03 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-19 20:34:06 -0600
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 20:34:11 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 20:34:14 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 20:34:15 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-19 20:34:16 -0600
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 20:34:18 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.4ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2013-11-19 20:34:21 -0600
+Processing by GroupsController#new as HTML
+  Rendered groups/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 20:34:25 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 20:34:48 -0600
+Processing by GroupsController#existing as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/existing.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 20:34:50 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 20:35:18 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 25ms (Views: 17.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 20:35:19 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 20:35:19 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 20:35:19 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 20:35:19 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 20:35:19 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 20:35:19 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 20:35:19 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 20:35:19 -0600

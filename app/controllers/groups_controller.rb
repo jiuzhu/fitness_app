@@ -43,4 +43,21 @@ class GroupsController < ApplicationController
 
     redirect_to groups_url, notice: "Group deleted."
   end
+
+  def joinexisting
+    @group = GroupUsers.new
+    @group.user_id = '1'
+    @group.group_id = params[:group_id]
+
+    if @group.save
+      redirect_to groups_url, notice: "Joined Group successfully."
+    else
+      render 'new'
+    end
+  end
+
+  def existing
+
+  end
+
 end

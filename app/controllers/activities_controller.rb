@@ -3,17 +3,21 @@ class ActivitiesController < ApplicationController
   def index
     @activities = Activity.all
 
-    @steps
-    @miles
-    @calorie
+    @activities.each do |act|
+     @steps = act["steps"]
+     @miles = act["miles"]
+     @calories = act["calories"]
 
-  @activities.each do |act|
-     @steps = @steps.to_i + act["steps"]
-     @miles = @miles.to_i + act["miles"]
-     @calories = @calories.to_i + act["calories"]
-    end
-  
+     @stepstotal = @stepstotal.to_i + act["steps"]
+     @milestotal = @milestotal.to_f + act["miles"]
+     @caloriestotal = @caloriestotal.to_i + act["calories"]
+     @recordcount = @recordcount.to_i + 1
+    end  
+      @stepsavg = @stepstotal / @recordcount
+      @milesavg = @milestotal / @recordcount
+      @caloriesavg = @caloriestotal / @recordcount
   end
+
 
   def show
     @activity = Activity.find_by(id: params[:id])

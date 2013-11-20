@@ -11027,3 +11027,1921 @@ Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 20:35:19 -060
 
 
 Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 20:35:19 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:07:41 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (0.4ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 143ms (Views: 80.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 21:07:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 21:07:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 21:07:42 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 21:07:42 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 21:07:42 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 21:07:42 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 21:07:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 21:07:42 -0600
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 21:07:55 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/groups/join" for 127.0.0.1 at 2013-11-19 21:08:07 -0600
+Processing by GroupsController#existing as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/existing.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:08:11 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 21:08:13 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.2ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 21:08:18 -0600
+Processing by ChallengesController#index as HTML
+  [1m[36mChallenge Load (0.4ms)[0m  [1mSELECT "challenges".* FROM "challenges"[0m
+  Rendered challenges/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 21ms (Views: 17.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 21:08:27 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 21:08:48 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 21:14:35 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 21:14:35 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 21:14:35 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 21:14:35 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 21:14:35 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 21:14:35 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 21:14:35 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 21:14:35 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 21:14:35 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:14:38 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (0.3ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.2ms)
+  [1m[36mUser Load (2.8ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35mActivity Load (0.2ms)[0m  SELECT "activities".* FROM "activities"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3121], ["date", Tue, 01 Jan 2013], ["miles", 6], ["steps", 12485], ["user_id", 2]]
+  [1m[35m (3.3ms)[0m  commit transaction
+  [1m[36mActivity Load (4.0ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (5.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2745], ["date", Tue, 01 Jan 2013], ["miles", 5], ["steps", 10982], ["user_id", 2]]
+  [1m[35m (2.7ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (4.7ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2745], ["date", Tue, 01 Jan 2013], ["miles", 5], ["steps", 10982], ["user_id", 2]]
+  [1m[35m (2.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2030], ["date", Tue, 01 Jan 2013], ["miles", 4], ["steps", 8122], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1504], ["date", Wed, 02 Jan 2013], ["miles", 3], ["steps", 6019], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3005], ["date", Thu, 03 Jan 2013], ["miles", 6], ["steps", 12022], ["user_id", 2]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3621], ["date", Fri, 04 Jan 2013], ["miles", 7], ["steps", 14484], ["user_id", 2]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2488], ["date", Sat, 05 Jan 2013], ["miles", 4], ["steps", 9954], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1697], ["date", Sun, 06 Jan 2013], ["miles", 3], ["steps", 6791], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1812], ["date", Mon, 07 Jan 2013], ["miles", 3], ["steps", 7251], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2076], ["date", Tue, 08 Jan 2013], ["miles", 4], ["steps", 8306], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1779], ["date", Wed, 09 Jan 2013], ["miles", 3], ["steps", 7117], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2212], ["date", Thu, 10 Jan 2013], ["miles", 4], ["steps", 8849], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3719], ["date", Fri, 11 Jan 2013], ["miles", 7], ["steps", 14876], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1759], ["date", Sat, 12 Jan 2013], ["miles", 3], ["steps", 7039], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1793], ["date", Sun, 13 Jan 2013], ["miles", 3], ["steps", 7174], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2555], ["date", Mon, 14 Jan 2013], ["miles", 5], ["steps", 10223], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2546], ["date", Tue, 15 Jan 2013], ["miles", 5], ["steps", 10187], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2074], ["date", Wed, 16 Jan 2013], ["miles", 4], ["steps", 8299], ["user_id", 2]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2890], ["date", Thu, 17 Jan 2013], ["miles", 5], ["steps", 11562], ["user_id", 2]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1581], ["date", Fri, 18 Jan 2013], ["miles", 3], ["steps", 6326], ["user_id", 2]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3005], ["date", Sat, 19 Jan 2013], ["miles", 6], ["steps", 12020], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3570], ["date", Sun, 20 Jan 2013], ["miles", 7], ["steps", 14282], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2297], ["date", Mon, 21 Jan 2013], ["miles", 4], ["steps", 9190], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3742], ["date", Tue, 22 Jan 2013], ["miles", 7], ["steps", 14968], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3223], ["date", Wed, 23 Jan 2013], ["miles", 6], ["steps", 12892], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2699], ["date", Thu, 24 Jan 2013], ["miles", 5], ["steps", 10796], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3478], ["date", Fri, 25 Jan 2013], ["miles", 6], ["steps", 13915], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3306], ["date", Sat, 26 Jan 2013], ["miles", 6], ["steps", 13225], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3029], ["date", Sun, 27 Jan 2013], ["miles", 6], ["steps", 12117], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3279], ["date", Mon, 28 Jan 2013], ["miles", 6], ["steps", 13117], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2466], ["date", Tue, 29 Jan 2013], ["miles", 4], ["steps", 9866], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3689], ["date", Wed, 30 Jan 2013], ["miles", 7], ["steps", 14756], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1527], ["date", Thu, 31 Jan 2013], ["miles", 3], ["steps", 6108], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1322], ["date", Fri, 01 Feb 2013], ["miles", 2], ["steps", 5288], ["user_id", 2]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1715], ["date", Sat, 02 Feb 2013], ["miles", 3], ["steps", 6863], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1875], ["date", Sun, 03 Feb 2013], ["miles", 3], ["steps", 7500], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3268], ["date", Mon, 04 Feb 2013], ["miles", 6], ["steps", 13073], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3518], ["date", Tue, 05 Feb 2013], ["miles", 7], ["steps", 14074], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3125], ["date", Wed, 06 Feb 2013], ["miles", 6], ["steps", 12503], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1982], ["date", Thu, 07 Feb 2013], ["miles", 3], ["steps", 7931], ["user_id", 2]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3040], ["date", Fri, 08 Feb 2013], ["miles", 6], ["steps", 12162], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1315], ["date", Sat, 09 Feb 2013], ["miles", 2], ["steps", 5262], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3602], ["date", Sun, 10 Feb 2013], ["miles", 7], ["steps", 14409], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2100], ["date", Mon, 11 Feb 2013], ["miles", 4], ["steps", 8401], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1948], ["date", Tue, 12 Feb 2013], ["miles", 3], ["steps", 7792], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3444], ["date", Wed, 13 Feb 2013], ["miles", 6], ["steps", 13777], ["user_id", 2]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1371], ["date", Thu, 14 Feb 2013], ["miles", 2], ["steps", 5487], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3017], ["date", Fri, 15 Feb 2013], ["miles", 6], ["steps", 12069], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1376], ["date", Sat, 16 Feb 2013], ["miles", 2], ["steps", 5505], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2860], ["date", Sun, 17 Feb 2013], ["miles", 5], ["steps", 11440], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3274], ["date", Mon, 18 Feb 2013], ["miles", 6], ["steps", 13096], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1856], ["date", Tue, 19 Feb 2013], ["miles", 3], ["steps", 7425], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3051], ["date", Wed, 20 Feb 2013], ["miles", 6], ["steps", 12206], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2220], ["date", Thu, 21 Feb 2013], ["miles", 4], ["steps", 8882], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1885], ["date", Fri, 22 Feb 2013], ["miles", 3], ["steps", 7540], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2049], ["date", Sat, 23 Feb 2013], ["miles", 4], ["steps", 8197], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1497], ["date", Sun, 24 Feb 2013], ["miles", 2], ["steps", 5989], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1927], ["date", Mon, 25 Feb 2013], ["miles", 3], ["steps", 7710], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1423], ["date", Tue, 26 Feb 2013], ["miles", 2], ["steps", 5692], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3242], ["date", Wed, 27 Feb 2013], ["miles", 6], ["steps", 12970], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3128], ["date", Thu, 28 Feb 2013], ["miles", 6], ["steps", 12515], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3149], ["date", Fri, 01 Mar 2013], ["miles", 6], ["steps", 12599], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2319], ["date", Sat, 02 Mar 2013], ["miles", 4], ["steps", 9279], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2556], ["date", Sun, 03 Mar 2013], ["miles", 5], ["steps", 10224], ["user_id", 2]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3146], ["date", Mon, 04 Mar 2013], ["miles", 6], ["steps", 12587], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1860], ["date", Tue, 05 Mar 2013], ["miles", 3], ["steps", 7440], ["user_id", 2]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1958], ["date", Wed, 06 Mar 2013], ["miles", 3], ["steps", 7835], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2283], ["date", Thu, 07 Mar 2013], ["miles", 4], ["steps", 9135], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1964], ["date", Fri, 08 Mar 2013], ["miles", 3], ["steps", 7859], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2581], ["date", Sat, 09 Mar 2013], ["miles", 5], ["steps", 10326], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3145], ["date", Sun, 10 Mar 2013], ["miles", 6], ["steps", 12581], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2987], ["date", Mon, 11 Mar 2013], ["miles", 5], ["steps", 11949], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1489], ["date", Tue, 12 Mar 2013], ["miles", 2], ["steps", 5957], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1273], ["date", Wed, 13 Mar 2013], ["miles", 2], ["steps", 5094], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3278], ["date", Thu, 14 Mar 2013], ["miles", 6], ["steps", 13112], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2112], ["date", Fri, 15 Mar 2013], ["miles", 4], ["steps", 8448], ["user_id", 2]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2290], ["date", Sat, 16 Mar 2013], ["miles", 4], ["steps", 9160], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1418], ["date", Sun, 17 Mar 2013], ["miles", 2], ["steps", 5673], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3509], ["date", Mon, 18 Mar 2013], ["miles", 7], ["steps", 14036], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1483], ["date", Tue, 19 Mar 2013], ["miles", 2], ["steps", 5934], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2931], ["date", Wed, 20 Mar 2013], ["miles", 5], ["steps", 11727], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2002], ["date", Thu, 21 Mar 2013], ["miles", 4], ["steps", 8008], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2806], ["date", Fri, 22 Mar 2013], ["miles", 5], ["steps", 11227], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2113], ["date", Sat, 23 Mar 2013], ["miles", 4], ["steps", 8454], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2049], ["date", Sun, 24 Mar 2013], ["miles", 4], ["steps", 8196], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2621], ["date", Mon, 25 Mar 2013], ["miles", 5], ["steps", 10487], ["user_id", 2]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2197], ["date", Tue, 26 Mar 2013], ["miles", 4], ["steps", 8789], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1355], ["date", Wed, 27 Mar 2013], ["miles", 2], ["steps", 5420], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1573], ["date", Thu, 28 Mar 2013], ["miles", 3], ["steps", 6293], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2447], ["date", Fri, 29 Mar 2013], ["miles", 4], ["steps", 9790], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2109], ["date", Sat, 30 Mar 2013], ["miles", 4], ["steps", 8439], ["user_id", 2]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2074], ["date", Sun, 31 Mar 2013], ["miles", 4], ["steps", 8298], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1682], ["date", Mon, 01 Apr 2013], ["miles", 3], ["steps", 6731], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3395], ["date", Tue, 02 Apr 2013], ["miles", 6], ["steps", 13580], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3648], ["date", Wed, 03 Apr 2013], ["miles", 7], ["steps", 14594], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2617], ["date", Thu, 04 Apr 2013], ["miles", 5], ["steps", 10470], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3614], ["date", Fri, 05 Apr 2013], ["miles", 7], ["steps", 14459], ["user_id", 2]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3337], ["date", Sat, 06 Apr 2013], ["miles", 6], ["steps", 13348], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2897], ["date", Sun, 07 Apr 2013], ["miles", 5], ["steps", 11591], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2531], ["date", Mon, 08 Apr 2013], ["miles", 5], ["steps", 10126], ["user_id", 2]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2405], ["date", Tue, 09 Apr 2013], ["miles", 4], ["steps", 9620], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2214], ["date", Wed, 10 Apr 2013], ["miles", 4], ["steps", 8856], ["user_id", 2]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1276], ["date", Thu, 11 Apr 2013], ["miles", 2], ["steps", 5104], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2309], ["date", Fri, 12 Apr 2013], ["miles", 4], ["steps", 9236], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2592], ["date", Sat, 13 Apr 2013], ["miles", 5], ["steps", 10370], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1450], ["date", Sun, 14 Apr 2013], ["miles", 2], ["steps", 5802], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2905], ["date", Mon, 15 Apr 2013], ["miles", 5], ["steps", 11623], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3037], ["date", Tue, 16 Apr 2013], ["miles", 6], ["steps", 12148], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2875], ["date", Wed, 17 Apr 2013], ["miles", 5], ["steps", 11502], ["user_id", 2]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.9ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1407], ["date", Thu, 18 Apr 2013], ["miles", 2], ["steps", 5631], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1256], ["date", Fri, 19 Apr 2013], ["miles", 2], ["steps", 5024], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2391], ["date", Sat, 20 Apr 2013], ["miles", 4], ["steps", 9566], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2302], ["date", Sun, 21 Apr 2013], ["miles", 4], ["steps", 9211], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2960], ["date", Mon, 22 Apr 2013], ["miles", 5], ["steps", 11842], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2140], ["date", Tue, 23 Apr 2013], ["miles", 4], ["steps", 8561], ["user_id", 2]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2539], ["date", Wed, 24 Apr 2013], ["miles", 5], ["steps", 10156], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1416], ["date", Thu, 25 Apr 2013], ["miles", 2], ["steps", 5665], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3625], ["date", Fri, 26 Apr 2013], ["miles", 7], ["steps", 14502], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3212], ["date", Sat, 27 Apr 2013], ["miles", 6], ["steps", 12851], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3490], ["date", Sun, 28 Apr 2013], ["miles", 6], ["steps", 13961], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3451], ["date", Mon, 29 Apr 2013], ["miles", 6], ["steps", 13804], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1712], ["date", Tue, 30 Apr 2013], ["miles", 3], ["steps", 6851], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1840], ["date", Wed, 01 May 2013], ["miles", 3], ["steps", 7361], ["user_id", 2]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3244], ["date", Thu, 02 May 2013], ["miles", 6], ["steps", 12976], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2057], ["date", Fri, 03 May 2013], ["miles", 4], ["steps", 8231], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2040], ["date", Sat, 04 May 2013], ["miles", 4], ["steps", 8162], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1499], ["date", Sun, 05 May 2013], ["miles", 2], ["steps", 5998], ["user_id", 2]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3638], ["date", Mon, 06 May 2013], ["miles", 7], ["steps", 14553], ["user_id", 2]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2686], ["date", Tue, 07 May 2013], ["miles", 5], ["steps", 10745], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3003], ["date", Wed, 08 May 2013], ["miles", 6], ["steps", 12014], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3675], ["date", Thu, 09 May 2013], ["miles", 7], ["steps", 14702], ["user_id", 2]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2094], ["date", Fri, 10 May 2013], ["miles", 4], ["steps", 8377], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1375], ["date", Sat, 11 May 2013], ["miles", 2], ["steps", 5500], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3035], ["date", Sun, 12 May 2013], ["miles", 6], ["steps", 12140], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2072], ["date", Mon, 13 May 2013], ["miles", 4], ["steps", 8291], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1322], ["date", Tue, 14 May 2013], ["miles", 2], ["steps", 5291], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1744], ["date", Wed, 15 May 2013], ["miles", 3], ["steps", 6978], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2747], ["date", Thu, 16 May 2013], ["miles", 5], ["steps", 10991], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2923], ["date", Fri, 17 May 2013], ["miles", 5], ["steps", 11695], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3134], ["date", Sat, 18 May 2013], ["miles", 6], ["steps", 12539], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1900], ["date", Sun, 19 May 2013], ["miles", 3], ["steps", 7603], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2987], ["date", Mon, 20 May 2013], ["miles", 5], ["steps", 11949], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3196], ["date", Tue, 21 May 2013], ["miles", 6], ["steps", 12785], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3704], ["date", Wed, 22 May 2013], ["miles", 7], ["steps", 14816], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2962], ["date", Thu, 23 May 2013], ["miles", 5], ["steps", 11849], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3323], ["date", Fri, 24 May 2013], ["miles", 6], ["steps", 13292], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2865], ["date", Sat, 25 May 2013], ["miles", 5], ["steps", 11462], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2516], ["date", Sun, 26 May 2013], ["miles", 5], ["steps", 10065], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2622], ["date", Mon, 27 May 2013], ["miles", 5], ["steps", 10488], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2115], ["date", Tue, 28 May 2013], ["miles", 4], ["steps", 8461], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2559], ["date", Wed, 29 May 2013], ["miles", 5], ["steps", 10236], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2950], ["date", Thu, 30 May 2013], ["miles", 5], ["steps", 11803], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1644], ["date", Fri, 31 May 2013], ["miles", 3], ["steps", 6579], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2544], ["date", Sat, 01 Jun 2013], ["miles", 5], ["steps", 10179], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1550], ["date", Sun, 02 Jun 2013], ["miles", 3], ["steps", 6202], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2606], ["date", Mon, 03 Jun 2013], ["miles", 5], ["steps", 10427], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2468], ["date", Tue, 04 Jun 2013], ["miles", 4], ["steps", 9873], ["user_id", 2]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2824], ["date", Wed, 05 Jun 2013], ["miles", 5], ["steps", 11297], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2967], ["date", Thu, 06 Jun 2013], ["miles", 5], ["steps", 11870], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2157], ["date", Fri, 07 Jun 2013], ["miles", 4], ["steps", 8631], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3026], ["date", Sat, 08 Jun 2013], ["miles", 6], ["steps", 12105], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1557], ["date", Sun, 09 Jun 2013], ["miles", 3], ["steps", 6230], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2487], ["date", Mon, 10 Jun 2013], ["miles", 4], ["steps", 9949], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1766], ["date", Tue, 11 Jun 2013], ["miles", 3], ["steps", 7065], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1857], ["date", Wed, 12 Jun 2013], ["miles", 3], ["steps", 7430], ["user_id", 2]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1585], ["date", Thu, 13 Jun 2013], ["miles", 3], ["steps", 6340], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2753], ["date", Fri, 14 Jun 2013], ["miles", 5], ["steps", 11014], ["user_id", 2]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2258], ["date", Sat, 15 Jun 2013], ["miles", 4], ["steps", 9032], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1586], ["date", Sun, 16 Jun 2013], ["miles", 3], ["steps", 6346], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2465], ["date", Mon, 17 Jun 2013], ["miles", 4], ["steps", 9860], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1639], ["date", Tue, 18 Jun 2013], ["miles", 3], ["steps", 6557], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2514], ["date", Wed, 19 Jun 2013], ["miles", 5], ["steps", 10057], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2911], ["date", Thu, 20 Jun 2013], ["miles", 5], ["steps", 11646], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1571], ["date", Fri, 21 Jun 2013], ["miles", 3], ["steps", 6286], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2938], ["date", Sat, 22 Jun 2013], ["miles", 5], ["steps", 11754], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2354], ["date", Sun, 23 Jun 2013], ["miles", 4], ["steps", 9418], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2125], ["date", Mon, 24 Jun 2013], ["miles", 4], ["steps", 8500], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3400], ["date", Tue, 25 Jun 2013], ["miles", 6], ["steps", 13600], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2074], ["date", Wed, 26 Jun 2013], ["miles", 4], ["steps", 8296], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1998], ["date", Thu, 27 Jun 2013], ["miles", 3], ["steps", 7993], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3430], ["date", Fri, 28 Jun 2013], ["miles", 6], ["steps", 13722], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2838], ["date", Sat, 29 Jun 2013], ["miles", 5], ["steps", 11355], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2559], ["date", Sun, 30 Jun 2013], ["miles", 5], ["steps", 10237], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3366], ["date", Mon, 01 Jul 2013], ["miles", 6], ["steps", 13465], ["user_id", 2]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3482], ["date", Tue, 02 Jul 2013], ["miles", 6], ["steps", 13931], ["user_id", 2]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1972], ["date", Wed, 03 Jul 2013], ["miles", 3], ["steps", 7890], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2914], ["date", Thu, 04 Jul 2013], ["miles", 5], ["steps", 11658], ["user_id", 2]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3602], ["date", Fri, 05 Jul 2013], ["miles", 7], ["steps", 14411], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3344], ["date", Sat, 06 Jul 2013], ["miles", 6], ["steps", 13378], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1814], ["date", Sun, 07 Jul 2013], ["miles", 3], ["steps", 7258], ["user_id", 2]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2475], ["date", Mon, 08 Jul 2013], ["miles", 4], ["steps", 9900], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3528], ["date", Tue, 09 Jul 2013], ["miles", 7], ["steps", 14114], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1769], ["date", Wed, 10 Jul 2013], ["miles", 3], ["steps", 7077], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1312], ["date", Thu, 11 Jul 2013], ["miles", 2], ["steps", 5248], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2794], ["date", Fri, 12 Jul 2013], ["miles", 5], ["steps", 11177], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2764], ["date", Sat, 13 Jul 2013], ["miles", 5], ["steps", 11059], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3081], ["date", Sun, 14 Jul 2013], ["miles", 6], ["steps", 12324], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2875], ["date", Mon, 15 Jul 2013], ["miles", 5], ["steps", 11503], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2815], ["date", Tue, 16 Jul 2013], ["miles", 5], ["steps", 11261], ["user_id", 2]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1431], ["date", Wed, 17 Jul 2013], ["miles", 2], ["steps", 5724], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2825], ["date", Thu, 18 Jul 2013], ["miles", 5], ["steps", 11302], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2875], ["date", Fri, 19 Jul 2013], ["miles", 5], ["steps", 11503], ["user_id", 2]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1756], ["date", Sat, 20 Jul 2013], ["miles", 3], ["steps", 7025], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3477], ["date", Sun, 21 Jul 2013], ["miles", 6], ["steps", 13908], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2471], ["date", Mon, 22 Jul 2013], ["miles", 4], ["steps", 9886], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3182], ["date", Tue, 23 Jul 2013], ["miles", 6], ["steps", 12729], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2188], ["date", Wed, 24 Jul 2013], ["miles", 4], ["steps", 8755], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2220], ["date", Thu, 25 Jul 2013], ["miles", 4], ["steps", 8883], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3514], ["date", Fri, 26 Jul 2013], ["miles", 7], ["steps", 14057], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3394], ["date", Sat, 27 Jul 2013], ["miles", 6], ["steps", 13579], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2716], ["date", Sun, 28 Jul 2013], ["miles", 5], ["steps", 10867], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3579], ["date", Mon, 29 Jul 2013], ["miles", 7], ["steps", 14318], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1999], ["date", Tue, 30 Jul 2013], ["miles", 3], ["steps", 7999], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2554], ["date", Wed, 31 Jul 2013], ["miles", 5], ["steps", 10216], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1327], ["date", Thu, 01 Aug 2013], ["miles", 2], ["steps", 5310], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1587], ["date", Fri, 02 Aug 2013], ["miles", 3], ["steps", 6348], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2336], ["date", Sat, 03 Aug 2013], ["miles", 4], ["steps", 9345], ["user_id", 2]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2896], ["date", Sun, 04 Aug 2013], ["miles", 5], ["steps", 11587], ["user_id", 2]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1842], ["date", Mon, 05 Aug 2013], ["miles", 3], ["steps", 7369], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2364], ["date", Tue, 06 Aug 2013], ["miles", 4], ["steps", 9457], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3445], ["date", Wed, 07 Aug 2013], ["miles", 6], ["steps", 13781], ["user_id", 2]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2024], ["date", Thu, 08 Aug 2013], ["miles", 4], ["steps", 8099], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3390], ["date", Fri, 09 Aug 2013], ["miles", 6], ["steps", 13561], ["user_id", 2]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2625], ["date", Sat, 10 Aug 2013], ["miles", 5], ["steps", 10501], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1463], ["date", Sun, 11 Aug 2013], ["miles", 2], ["steps", 5855], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1979], ["date", Mon, 12 Aug 2013], ["miles", 3], ["steps", 7916], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2913], ["date", Tue, 13 Aug 2013], ["miles", 5], ["steps", 11654], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (2.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3215], ["date", Wed, 14 Aug 2013], ["miles", 6], ["steps", 12863], ["user_id", 2]]
+  [1m[35m (1.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1740], ["date", Thu, 15 Aug 2013], ["miles", 3], ["steps", 6960], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3129], ["date", Fri, 16 Aug 2013], ["miles", 6], ["steps", 12518], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2518], ["date", Sat, 17 Aug 2013], ["miles", 5], ["steps", 10075], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3607], ["date", Sun, 18 Aug 2013], ["miles", 7], ["steps", 14431], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3044], ["date", Mon, 19 Aug 2013], ["miles", 6], ["steps", 12177], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1578], ["date", Tue, 20 Aug 2013], ["miles", 3], ["steps", 6313], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1412], ["date", Wed, 21 Aug 2013], ["miles", 2], ["steps", 5651], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1322], ["date", Thu, 22 Aug 2013], ["miles", 2], ["steps", 5289], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1542], ["date", Fri, 23 Aug 2013], ["miles", 3], ["steps", 6171], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2052], ["date", Sat, 24 Aug 2013], ["miles", 4], ["steps", 8210], ["user_id", 2]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2743], ["date", Sun, 25 Aug 2013], ["miles", 5], ["steps", 10973], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2605], ["date", Mon, 26 Aug 2013], ["miles", 5], ["steps", 10420], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1313], ["date", Tue, 27 Aug 2013], ["miles", 2], ["steps", 5253], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2030], ["date", Wed, 28 Aug 2013], ["miles", 4], ["steps", 8121], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3189], ["date", Thu, 29 Aug 2013], ["miles", 6], ["steps", 12757], ["user_id", 2]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2323], ["date", Fri, 30 Aug 2013], ["miles", 4], ["steps", 9293], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3542], ["date", Sat, 31 Aug 2013], ["miles", 7], ["steps", 14169], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2549], ["date", Sun, 01 Sep 2013], ["miles", 5], ["steps", 10198], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1297], ["date", Mon, 02 Sep 2013], ["miles", 2], ["steps", 5190], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1304], ["date", Tue, 03 Sep 2013], ["miles", 2], ["steps", 5216], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2671], ["date", Wed, 04 Sep 2013], ["miles", 5], ["steps", 10685], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3386], ["date", Thu, 05 Sep 2013], ["miles", 6], ["steps", 13545], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3093], ["date", Fri, 06 Sep 2013], ["miles", 6], ["steps", 12373], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2200], ["date", Sat, 07 Sep 2013], ["miles", 4], ["steps", 8803], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3463], ["date", Sun, 08 Sep 2013], ["miles", 6], ["steps", 13853], ["user_id", 2]]
+  [1m[36m (1.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1755], ["date", Mon, 09 Sep 2013], ["miles", 3], ["steps", 7022], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2486], ["date", Tue, 10 Sep 2013], ["miles", 4], ["steps", 9946], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3598], ["date", Wed, 11 Sep 2013], ["miles", 7], ["steps", 14395], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2934], ["date", Thu, 12 Sep 2013], ["miles", 5], ["steps", 11739], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1860], ["date", Fri, 13 Sep 2013], ["miles", 3], ["steps", 7441], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3704], ["date", Sat, 14 Sep 2013], ["miles", 7], ["steps", 14816], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1974], ["date", Sun, 15 Sep 2013], ["miles", 3], ["steps", 7896], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2999], ["date", Mon, 16 Sep 2013], ["miles", 5], ["steps", 11998], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1447], ["date", Tue, 17 Sep 2013], ["miles", 2], ["steps", 5788], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1518], ["date", Wed, 18 Sep 2013], ["miles", 3], ["steps", 6072], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2982], ["date", Thu, 19 Sep 2013], ["miles", 5], ["steps", 11930], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3465], ["date", Fri, 20 Sep 2013], ["miles", 6], ["steps", 13863], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2309], ["date", Sat, 21 Sep 2013], ["miles", 4], ["steps", 9236], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1323], ["date", Sun, 22 Sep 2013], ["miles", 2], ["steps", 5293], ["user_id", 2]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2531], ["date", Mon, 23 Sep 2013], ["miles", 5], ["steps", 10124], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1895], ["date", Tue, 24 Sep 2013], ["miles", 3], ["steps", 7583], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3580], ["date", Wed, 25 Sep 2013], ["miles", 7], ["steps", 14321], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1990], ["date", Thu, 26 Sep 2013], ["miles", 3], ["steps", 7961], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1299], ["date", Fri, 27 Sep 2013], ["miles", 2], ["steps", 5199], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3076], ["date", Sat, 28 Sep 2013], ["miles", 6], ["steps", 12304], ["user_id", 2]]
+  [1m[36m (3.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2429], ["date", Sun, 29 Sep 2013], ["miles", 4], ["steps", 9716], ["user_id", 2]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3705], ["date", Mon, 30 Sep 2013], ["miles", 7], ["steps", 14823], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1885], ["date", Tue, 01 Oct 2013], ["miles", 3], ["steps", 7541], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2427], ["date", Wed, 02 Oct 2013], ["miles", 4], ["steps", 9710], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2687], ["date", Thu, 03 Oct 2013], ["miles", 5], ["steps", 10750], ["user_id", 2]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2166], ["date", Fri, 04 Oct 2013], ["miles", 4], ["steps", 8667], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1751], ["date", Sat, 05 Oct 2013], ["miles", 3], ["steps", 7007], ["user_id", 2]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2822], ["date", Sun, 06 Oct 2013], ["miles", 5], ["steps", 11289], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1467], ["date", Mon, 07 Oct 2013], ["miles", 2], ["steps", 5870], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1470], ["date", Tue, 08 Oct 2013], ["miles", 2], ["steps", 5880], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1283], ["date", Wed, 09 Oct 2013], ["miles", 2], ["steps", 5134], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1795], ["date", Thu, 10 Oct 2013], ["miles", 3], ["steps", 7181], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2340], ["date", Fri, 11 Oct 2013], ["miles", 4], ["steps", 9362], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2535], ["date", Sat, 12 Oct 2013], ["miles", 5], ["steps", 10143], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1835], ["date", Sun, 13 Oct 2013], ["miles", 3], ["steps", 7343], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1374], ["date", Mon, 14 Oct 2013], ["miles", 2], ["steps", 5498], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2720], ["date", Tue, 15 Oct 2013], ["miles", 5], ["steps", 10880], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3688], ["date", Wed, 16 Oct 2013], ["miles", 7], ["steps", 14752], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1372], ["date", Thu, 17 Oct 2013], ["miles", 2], ["steps", 5489], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3479], ["date", Fri, 18 Oct 2013], ["miles", 6], ["steps", 13919], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1603], ["date", Sat, 19 Oct 2013], ["miles", 3], ["steps", 6412], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2112], ["date", Sun, 20 Oct 2013], ["miles", 4], ["steps", 8449], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1733], ["date", Mon, 21 Oct 2013], ["miles", 3], ["steps", 6932], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3153], ["date", Tue, 22 Oct 2013], ["miles", 6], ["steps", 12614], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3686], ["date", Wed, 23 Oct 2013], ["miles", 7], ["steps", 14745], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1867], ["date", Thu, 24 Oct 2013], ["miles", 3], ["steps", 7471], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1833], ["date", Fri, 25 Oct 2013], ["miles", 3], ["steps", 7334], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1348], ["date", Sat, 26 Oct 2013], ["miles", 2], ["steps", 5394], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2271], ["date", Sun, 27 Oct 2013], ["miles", 4], ["steps", 9084], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3072], ["date", Mon, 28 Oct 2013], ["miles", 6], ["steps", 12291], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2796], ["date", Tue, 29 Oct 2013], ["miles", 5], ["steps", 11186], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2277], ["date", Wed, 30 Oct 2013], ["miles", 4], ["steps", 9108], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3169], ["date", Thu, 31 Oct 2013], ["miles", 6], ["steps", 12679], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2361], ["date", Fri, 01 Nov 2013], ["miles", 4], ["steps", 9447], ["user_id", 2]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2573], ["date", Sat, 02 Nov 2013], ["miles", 5], ["steps", 10294], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3280], ["date", Sun, 03 Nov 2013], ["miles", 6], ["steps", 13121], ["user_id", 2]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2880], ["date", Mon, 04 Nov 2013], ["miles", 5], ["steps", 11522], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1925], ["date", Tue, 05 Nov 2013], ["miles", 3], ["steps", 7701], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1960], ["date", Wed, 06 Nov 2013], ["miles", 3], ["steps", 7843], ["user_id", 2]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2511], ["date", Thu, 07 Nov 2013], ["miles", 5], ["steps", 10045], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2337], ["date", Fri, 08 Nov 2013], ["miles", 4], ["steps", 9348], ["user_id", 2]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3226], ["date", Sat, 09 Nov 2013], ["miles", 6], ["steps", 12904], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1517], ["date", Sun, 10 Nov 2013], ["miles", 3], ["steps", 6071], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1405], ["date", Mon, 11 Nov 2013], ["miles", 2], ["steps", 5623], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2335], ["date", Tue, 12 Nov 2013], ["miles", 4], ["steps", 9343], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2974], ["date", Wed, 13 Nov 2013], ["miles", 5], ["steps", 11898], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1635], ["date", Thu, 14 Nov 2013], ["miles", 3], ["steps", 6541], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2940], ["date", Fri, 15 Nov 2013], ["miles", 5], ["steps", 11762], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2996], ["date", Sat, 16 Nov 2013], ["miles", 5], ["steps", 11985], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1339], ["date", Sun, 17 Nov 2013], ["miles", 2], ["steps", 5359], ["user_id", 2]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2191], ["date", Mon, 18 Nov 2013], ["miles", 4], ["steps", 8764], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3365], ["date", Tue, 19 Nov 2013], ["miles", 6], ["steps", 13463], ["user_id", 2]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2691], ["date", Wed, 20 Nov 2013], ["miles", 5], ["steps", 10766], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1657], ["date", Thu, 21 Nov 2013], ["miles", 3], ["steps", 6629], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2613], ["date", Fri, 22 Nov 2013], ["miles", 5], ["steps", 10454], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2826], ["date", Sat, 23 Nov 2013], ["miles", 5], ["steps", 11307], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3638], ["date", Sun, 24 Nov 2013], ["miles", 7], ["steps", 14555], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3642], ["date", Mon, 25 Nov 2013], ["miles", 7], ["steps", 14570], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2091], ["date", Tue, 26 Nov 2013], ["miles", 4], ["steps", 8364], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3486], ["date", Wed, 27 Nov 2013], ["miles", 6], ["steps", 13947], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1997], ["date", Thu, 28 Nov 2013], ["miles", 3], ["steps", 7991], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1453], ["date", Fri, 29 Nov 2013], ["miles", 2], ["steps", 5814], ["user_id", 2]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2869], ["date", Sat, 30 Nov 2013], ["miles", 5], ["steps", 11479], ["user_id", 2]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2963], ["date", Sun, 01 Dec 2013], ["miles", 5], ["steps", 11854], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3696], ["date", Mon, 02 Dec 2013], ["miles", 7], ["steps", 14784], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2012], ["date", Tue, 03 Dec 2013], ["miles", 4], ["steps", 8048], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3661], ["date", Wed, 04 Dec 2013], ["miles", 7], ["steps", 14645], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1502], ["date", Thu, 05 Dec 2013], ["miles", 3], ["steps", 6008], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1800], ["date", Fri, 06 Dec 2013], ["miles", 3], ["steps", 7202], ["user_id", 2]]
+  [1m[35m (1.0ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2275], ["date", Sat, 07 Dec 2013], ["miles", 4], ["steps", 9100], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2352], ["date", Sun, 08 Dec 2013], ["miles", 4], ["steps", 9409], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1312], ["date", Mon, 09 Dec 2013], ["miles", 2], ["steps", 5251], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2859], ["date", Tue, 10 Dec 2013], ["miles", 5], ["steps", 11436], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1374], ["date", Wed, 11 Dec 2013], ["miles", 2], ["steps", 5498], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3009], ["date", Thu, 12 Dec 2013], ["miles", 6], ["steps", 12039], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 1746], ["date", Fri, 13 Dec 2013], ["miles", 3], ["steps", 6984], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1931], ["date", Sat, 14 Dec 2013], ["miles", 3], ["steps", 7727], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3033], ["date", Sun, 15 Dec 2013], ["miles", 6], ["steps", 12135], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2354], ["date", Mon, 16 Dec 2013], ["miles", 4], ["steps", 9416], ["user_id", 2]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2754], ["date", Tue, 17 Dec 2013], ["miles", 5], ["steps", 11019], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2371], ["date", Wed, 18 Dec 2013], ["miles", 4], ["steps", 9486], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3153], ["date", Thu, 19 Dec 2013], ["miles", 6], ["steps", 12614], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 3254], ["date", Fri, 20 Dec 2013], ["miles", 6], ["steps", 13018], ["user_id", 2]]
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2247], ["date", Sat, 21 Dec 2013], ["miles", 4], ["steps", 8991], ["user_id", 2]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1273], ["date", Sun, 22 Dec 2013], ["miles", 2], ["steps", 5093], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 3283], ["date", Mon, 23 Dec 2013], ["miles", 6], ["steps", 13134], ["user_id", 2]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1985], ["date", Tue, 24 Dec 2013], ["miles", 3], ["steps", 7942], ["user_id", 2]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2332], ["date", Wed, 25 Dec 2013], ["miles", 4], ["steps", 9331], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1423], ["date", Thu, 26 Dec 2013], ["miles", 2], ["steps", 5692], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2775], ["date", Fri, 27 Dec 2013], ["miles", 5], ["steps", 11103], ["user_id", 2]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 2476], ["date", Sat, 28 Dec 2013], ["miles", 4], ["steps", 9906], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)  [["calories", 2457], ["date", Sun, 29 Dec 2013], ["miles", 4], ["steps", 9831], ["user_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "activities" ("calories", "date", "miles", "steps", "user_id") VALUES (?, ?, ?, ?, ?)[0m  [["calories", 1828], ["date", Mon, 30 Dec 2013], ["miles", 3], ["steps", 7315], ["user_id", 2]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36mActivity Load (5.6ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:40:41 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (3.3ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (262.3ms)
+Completed 200 OK in 289ms (Views: 269.7ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 21:40:41 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 21:40:41 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 21:40:41 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 21:40:41 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 21:40:41 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 21:40:41 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 21:40:41 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 21:40:41 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:41:08 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (3.1ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (285.6ms)
+Completed 200 OK in 318ms (Views: 296.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 21:41:09 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 21:41:09 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 21:41:09 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 21:41:09 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 21:41:09 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 21:41:09 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 21:41:09 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 21:41:09 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:42:47 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (2.6ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (194.5ms)
+Completed 200 OK in 261ms (Views: 201.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 21:42:48 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 21:44:21 -0600
+Processing by GroupsController#index as HTML
+  [1m[35mGroup Load (0.3ms)[0m  SELECT "groups".* FROM "groups"
+  Rendered groups/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 21:44:22 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 21:44:22 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 21:44:22 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 21:44:22 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 21:44:22 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 21:44:22 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 21:44:22 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 21:44:22 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:44:31 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (4.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (241.8ms)
+Completed 200 OK in 271ms (Views: 249.5ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 21:44:37 -0600
+Processing by ChallengesController#index as HTML
+  [1m[35mChallenge Load (0.2ms)[0m  SELECT "challenges".* FROM "challenges"
+  Rendered challenges/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:44:42 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (2.9ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (240.0ms)
+Completed 200 OK in 269ms (Views: 248.5ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-19 21:44:42 -0600
+Processing by HomepageController#index as HTML
+  Rendered homepage/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:44:45 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (2.1ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (241.1ms)
+Completed 200 OK in 264ms (Views: 246.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 21:45:30 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.2ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:45:33 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (3.3ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (239.0ms)
+Completed 200 OK in 264ms (Views: 245.3ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/groups" for 127.0.0.1 at 2013-11-19 21:46:01 -0600
+Processing by GroupsController#index as HTML
+  [1m[36mGroup Load (0.3ms)[0m  [1mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:46:30 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (2.0ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (245.2ms)
+Completed 200 OK in 269ms (Views: 252.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/challenges" for 127.0.0.1 at 2013-11-19 21:47:01 -0600
+Processing by ChallengesController#index as HTML
+  [1m[36mChallenge Load (0.2ms)[0m  [1mSELECT "challenges".* FROM "challenges"[0m
+  Rendered challenges/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:47:37 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (4.2ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (189.1ms)
+Completed 200 OK in 259ms (Views: 195.9ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:50:42 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (3.7ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (233.1ms)
+Completed 200 OK in 267ms (Views: 240.0ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 21:50:42 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 21:50:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 21:50:42 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 21:50:42 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 21:50:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 21:50:42 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 21:50:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 21:50:42 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:51:42 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (5.0ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (284.1ms)
+Completed 200 OK in 315ms (Views: 290.2ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 21:51:42 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 21:51:42 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 21:51:42 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 21:51:42 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 21:51:42 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 21:51:42 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 21:51:42 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 21:51:42 -0600
+
+
+Started DELETE "/activities/372" for 127.0.0.1 at 2013-11-19 21:52:29 -0600
+Processing by ActivitiesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+1yG7HYernwukD35e6mg41PUwPYJtRYKDmin5/sYCsU=", "id"=>"372"}
+  [1m[36mActivity Load (0.5ms)[0m  [1mSELECT "activities".* FROM "activities" WHERE "activities"."id" = 372 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (8.3ms)[0m  [1mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 372]]
+  [1m[35m (3.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/activities
+Completed 302 Found in 23ms (ActiveRecord: 12.0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:52:29 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (6.2ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (272.3ms)
+Completed 200 OK in 320ms (Views: 298.7ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 21:52:29 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 21:52:29 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 21:52:29 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 21:52:29 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 21:52:29 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 21:52:29 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 21:52:29 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 21:52:29 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:52:52 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (3.2ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (213.7ms)
+Completed 200 OK in 285ms (Views: 263.2ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 21:52:52 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 21:52:52 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 21:52:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 21:52:52 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 21:52:52 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 21:52:52 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 21:52:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 21:52:53 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:58:27 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (3.9ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+Completed 500 Internal Server Error in 27ms
+
+NoMethodError (undefined method `+' for nil:NilClass):
+  app/controllers/activities_controller.rb:18:in `block in index'
+  app/controllers/activities_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.6ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:59:13 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (3.0ms)[0m  SELECT "activities".* FROM "activities"
+Completed 500 Internal Server Error in 72ms
+
+NameError (undefined local variable or method `stepstotal' for #<ActivitiesController:0x00000102d46d38>):
+  app/controllers/activities_controller.rb:20:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.8ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:59:33 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (4.7ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+Completed 500 Internal Server Error in 42ms
+
+NameError (undefined local variable or method `stepstotal' for #<ActivitiesController:0x0000010206c220>):
+  app/controllers/activities_controller.rb:20:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.1ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 21:59:55 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (4.3ms)[0m  SELECT "activities".* FROM "activities"
+Completed 500 Internal Server Error in 38ms
+
+NameError (undefined local variable or method `stepstotal' for #<ActivitiesController:0x000001024182e8>):
+  app/controllers/activities_controller.rb:20:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.4ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 22:00:27 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (3.1ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+Completed 500 Internal Server Error in 68ms
+
+NameError (undefined local variable or method `stepstotal' for #<ActivitiesController:0x00000100adea20>):
+  app/controllers/activities_controller.rb:9:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.3ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 22:00:52 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (2.8ms)[0m  SELECT "activities".* FROM "activities"
+Completed 500 Internal Server Error in 27ms
+
+NameError (undefined local variable or method `stepstotal' for #<ActivitiesController:0x00000104284678>):
+  app/controllers/activities_controller.rb:15:in `block in index'
+  app/controllers/activities_controller.rb:10:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.8ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (55.1ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 22:01:07 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (4.4ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+Completed 500 Internal Server Error in 28ms
+
+NameError (undefined local variable or method `stepstotal' for #<ActivitiesController:0x000001023ddf58>):
+  app/controllers/activities_controller.rb:19:in `block in index'
+  app/controllers/activities_controller.rb:14:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (28.0ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 22:01:32 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (3.1ms)[0m  SELECT "activities".* FROM "activities"
+Completed 500 Internal Server Error in 67ms
+
+NameError (undefined local variable or method `stepstotal' for #<ActivitiesController:0x00000102bb80e8>):
+  app/controllers/activities_controller.rb:19:in `block in index'
+  app/controllers/activities_controller.rb:14:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.4ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 22:01:35 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (2.1ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+Completed 500 Internal Server Error in 18ms
+
+NameError (undefined local variable or method `stepstotal' for #<ActivitiesController:0x0000010254cf60>):
+  app/controllers/activities_controller.rb:19:in `block in index'
+  app/controllers/activities_controller.rb:14:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.1ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 22:01:39 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (3.5ms)[0m  SELECT "activities".* FROM "activities"
+Completed 500 Internal Server Error in 69ms
+
+NameError (undefined local variable or method `stepstotal' for #<ActivitiesController:0x0000010229ac68>):
+  app/controllers/activities_controller.rb:19:in `block in index'
+  app/controllers/activities_controller.rb:14:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.4ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 22:02:10 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (3.8ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+Completed 500 Internal Server Error in 36ms
+
+NameError (undefined local variable or method `stepstotal' for #<ActivitiesController:0x000001024bc5f0>):
+  app/controllers/activities_controller.rb:19:in `block in index'
+  app/controllers/activities_controller.rb:14:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (52.3ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 22:02:12 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (2.1ms)[0m  SELECT "activities".* FROM "activities"
+Completed 500 Internal Server Error in 19ms
+
+NameError (undefined local variable or method `stepstotal' for #<ActivitiesController:0x00000101383dd8>):
+  app/controllers/activities_controller.rb:19:in `block in index'
+  app/controllers/activities_controller.rb:14:in `index'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p392/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.6ms)
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 22:02:34 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (5.0ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (217.9ms)
+Completed 200 OK in 260ms (Views: 226.1ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 22:02:34 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 22:02:34 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 22:02:34 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 22:02:34 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 22:02:34 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 22:02:34 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 22:02:34 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 22:02:34 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 22:03:02 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (3.1ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (238.1ms)
+Completed 200 OK in 288ms (Views: 247.5ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 22:03:03 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 22:03:03 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 22:03:03 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 22:03:03 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 22:03:03 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 22:03:03 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 22:03:03 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 22:03:03 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 22:03:10 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (4.1ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (255.1ms)
+Completed 200 OK in 298ms (Views: 264.3ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 22:03:10 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 22:03:10 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 22:03:10 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 22:03:10 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 22:03:10 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 22:03:10 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 22:03:10 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 22:03:10 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 22:04:30 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (2.0ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (266.7ms)
+Completed 200 OK in 294ms (Views: 274.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 22:04:30 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 22:04:30 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 22:04:30 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 22:04:30 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 22:04:30 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 22:04:30 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 22:04:30 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 22:04:31 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 22:04:51 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (3.8ms)[0m  [1mSELECT "activities".* FROM "activities"[0m
+  Rendered activities/index.html.erb within layouts/application (212.8ms)
+Completed 200 OK in 295ms (Views: 264.5ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 22:04:52 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 22:04:52 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 22:04:52 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 22:04:52 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 22:04:52 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 22:04:52 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 22:04:52 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 22:04:52 -0600
+
+
+Started GET "/activities" for 127.0.0.1 at 2013-11-19 22:05:13 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[35mActivity Load (2.9ms)[0m  SELECT "activities".* FROM "activities"
+  Rendered activities/index.html.erb within layouts/application (282.0ms)
+Completed 200 OK in 322ms (Views: 292.8ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-19 22:05:14 -0600
+
+
+Started GET "/assets/homepage.css?body=1" for 127.0.0.1 at 2013-11-19 22:05:14 -0600
+
+
+Started GET "/assets/fitness.css?body=1" for 127.0.0.1 at 2013-11-19 22:05:14 -0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-19 22:05:14 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-19 22:05:14 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-19 22:05:14 -0600
+
+
+Started GET "/assets/homepage.js?body=1" for 127.0.0.1 at 2013-11-19 22:05:14 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-19 22:05:14 -0600

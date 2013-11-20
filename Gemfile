@@ -1,4 +1,5 @@
 gem 'starter_generators'
+gem 'fitgem'
 
 source 'https://rubygems.org'
 
